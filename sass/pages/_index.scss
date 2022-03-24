@@ -1,0 +1,92 @@
+@media screen and (min-width: 700px){
+    .leftside{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        background-color: $color-secondary;
+
+        width: 630px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+
+        &-logo-box{
+            box-shadow:  4px 4px 4px #bebebe, -4px -4px 4px #ffffff;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 150px;
+
+            height: 330px;
+            width: 330px;
+            border-radius: 90px;
+
+            background-color: $color-background;
+            img{
+                height: 195px;
+                width: 215px;
+            }
+        }
+        &-link{
+            margin-top: 150px;
+            display: flex;
+            align-items: center;
+
+            &-box{
+                margin: 10px;
+                border-radius: 40px;
+                box-shadow:  2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
+
+                height: 130px;
+                width: 130px;
+
+                background-color: white;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                i{
+                    font-size: 5em;
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+
+    .card{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        position: fixed;
+
+        padding-left: 50px;
+        margin-top: -480px;
+        margin-left: 800px;
+        border-radius: 60px;
+
+        box-shadow:  2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
+        background-color: $color-background;
+
+        height: 580px;
+        width: 920px;
+        &-text{
+            font-size: 2em;
+        }
+    }
+
+    .bottom-card{
+        background-color: $color-primary;
+
+        margin-top: 600px;
+        padding-left: 50px;
+        margin-left: 800px;
+        
+        border-radius: 60px;
+        height: 165px;
+        width: 920px;
+    }
+}

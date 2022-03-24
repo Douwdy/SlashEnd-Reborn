@@ -1,0 +1,80 @@
+.leftside-cv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: $color-secondary;
+
+    width: 750px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+
+    &-backarrow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+
+        font-size: 2em;
+        background-color: $color-background;
+        color: black;
+        border-radius: 50%;
+
+        margin-top: 15px;
+        margin-left: -350px;
+
+        height: 50px;
+        width: 50px;
+    }
+
+    &-card{
+        margin-top: -50px;
+        margin-bottom: -80px;
+        &__image{
+            margin-top: 150px;
+            border-radius: 50px 50px 0px 0px;
+            height: 350px;
+            width: 450px;
+            object-fit: cover;
+            margin-bottom: -5px;
+        }
+        &-bottom{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 150px;
+            width: 450px;
+            border-radius: 0px 0px 50px 50px;
+            background-color: $color-primary;
+            &__name{
+                font-size: 1.8em;
+                margin-top: 25px;
+                background-color: white;
+
+                display: flex;
+                justify-content: center;
+
+                width: 350px;
+                padding: 5px;
+
+                border-radius: 50px;
+            }
+            &__age{
+                font-size: 1.8em;
+                background-color: white;
+
+                display: flex;
+                justify-content: center;
+
+                width: 150px;
+                padding: 5px;
+                margin-top: 7px;
+                margin-left: -80px;
+
+                border-radius: 50px;
+            }
+        }
+    }
+}

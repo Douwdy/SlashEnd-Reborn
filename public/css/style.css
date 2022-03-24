@@ -1,0 +1,236 @@
+/* Utils */
+/* Pages */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@media screen and (min-width: 700px) {
+  .leftside {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #C8B5FF;
+    width: 630px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+  .leftside-logo-box {
+    box-shadow: 4px 4px 4px #bebebe, -4px -4px 4px #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    height: 330px;
+    width: 330px;
+    border-radius: 90px;
+    background-color: #F4F4F4;
+  }
+  .leftside-logo-box img {
+    height: 195px;
+    width: 215px;
+  }
+  .leftside-link {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+  }
+  .leftside-link-box {
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftside-link-box i {
+    font-size: 5em;
+    color: #8C64FF;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    position: fixed;
+    padding-left: 50px;
+    margin-top: -480px;
+    margin-left: 800px;
+    border-radius: 60px;
+    box-shadow: 2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
+    background-color: #F4F4F4;
+    height: 580px;
+    width: 920px;
+  }
+  .card-text {
+    font-size: 2em;
+  }
+
+  .bottom-card {
+    background-color: #8C64FF;
+    margin-top: 600px;
+    padding-left: 50px;
+    margin-left: 800px;
+    border-radius: 60px;
+    height: 165px;
+    width: 920px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .leftside {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #C8B5FF;
+    width: 375px;
+    height: 812px;
+  }
+  .leftside-logo-box {
+    box-shadow: 4px 4px 4px #bebebe, -4px -4px 4px #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    height: 234px;
+    width: 234px;
+    border-radius: 90px;
+    background-color: #F4F4F4;
+  }
+  .leftside-logo-box img {
+    height: 152px;
+    width: 138px;
+  }
+  .leftside-link {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+  }
+  .leftside-link-box {
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
+    height: 65px;
+    width: 65px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftside-link-box i {
+    font-size: 2.5em;
+    color: #8C64FF;
+  }
+
+  .mobile-alignment {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card {
+    height: 600px;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
+    background-color: #F4F4F4;
+  }
+  .card h1 {
+    padding: 15px;
+    font-size: 1.9em;
+  }
+  .card-text {
+    font-size: 1.4em;
+    padding: 15px;
+  }
+
+  .bottom-card {
+    background-color: #8C64FF;
+    border-radius: 0px 0px 30px 30px;
+    height: 82px;
+    margin-top: -30px;
+  }
+}
+.leftside-cv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #C8B5FF;
+  width: 750px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+.leftside-cv-backarrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 2em;
+  background-color: #F4F4F4;
+  color: black;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: -350px;
+  height: 50px;
+  width: 50px;
+}
+.leftside-cv-card {
+  margin-top: -50px;
+  margin-bottom: -80px;
+}
+.leftside-cv-card__image {
+  margin-top: 150px;
+  border-radius: 50px 50px 0px 0px;
+  height: 350px;
+  width: 450px;
+  object-fit: cover;
+  margin-bottom: -5px;
+}
+.leftside-cv-card-bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+  width: 450px;
+  border-radius: 0px 0px 50px 50px;
+  background-color: #8C64FF;
+}
+.leftside-cv-card-bottom__name {
+  font-size: 1.8em;
+  margin-top: 25px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  padding: 5px;
+  border-radius: 50px;
+}
+.leftside-cv-card-bottom__age {
+  font-size: 1.8em;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  padding: 5px;
+  margin-top: 7px;
+  margin-left: -80px;
+  border-radius: 50px;
+}
+
+/* Layout */
+/* Base */
+html, body {
+  margin: 0;
+  background-color: #F4F4F4;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, strong {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
