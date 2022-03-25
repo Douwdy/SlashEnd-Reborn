@@ -1,4 +1,4 @@
-@media screen and (min-width: 700px){
+@media screen and (max-width: 700px){
     .leftside-cv{
         display: flex;
         align-items: center;
@@ -6,8 +6,8 @@
 
         background-color: $color-secondary;
 
-        width: 750px;
-        position: fixed;
+        left: 0;
+        right: 0;
         top: 0;
         bottom: 0;
 
@@ -17,62 +17,68 @@
             justify-content: center;
 
             position: absolute;
+            top: 0;
+            left: 15px;
 
-            font-size: 2em;
+            font-size: 1.5em;
             background-color: $color-background;
             color: black;
             border-radius: 50%;
 
             margin-top: 15px;
-            margin-left: -350px;
 
-            height: 50px;
-            width: 50px;
+            height: 30px;
+            width: 30px;
         }
-
+        &-link{
+            display: flex;
+            align-items: center;
+            margin-top: 80px;
+            margin-bottom: 50px;
+        }
         &-card{
-            margin-top: -50px;
-            margin-bottom: -80px;
             &__image{
-                margin-top: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                margin-top: 55px;
                 border-radius: 50px 50px 0px 0px;
-                height: 350px;
-                width: 450px;
+                height: 300px;
+                width: 300px;
                 object-fit: cover;
-                margin-bottom: -5px;
             }
             &-bottom{
                 display: flex;
                 align-items: center;
                 flex-direction: column;
-                height: 150px;
-                width: 450px;
+                height: 130px;
+                width: 300px;
                 border-radius: 0px 0px 50px 50px;
                 background-color: $color-primary;
                 &__name{
-                    font-size: 1.8em;
+                    font-size: 1.3em;
                     margin-top: 25px;
                     background-color: white;
 
                     display: flex;
                     justify-content: center;
 
-                    width: 350px;
+                    width: 250px;
                     padding: 5px;
 
                     border-radius: 50px;
                 }
                 &__age{
-                    font-size: 1.8em;
+                    font-size: 1.3em;
                     background-color: white;
 
                     display: flex;
                     justify-content: center;
 
-                    width: 150px;
+                    width: 100px;
                     padding: 5px;
                     margin-top: 7px;
-                    margin-left: -80px;
 
                     border-radius: 50px;
                 }

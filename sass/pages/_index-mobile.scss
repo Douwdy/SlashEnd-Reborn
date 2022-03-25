@@ -6,8 +6,10 @@
     
         background-color: $color-secondary;
     
-        width: 375px;
-        height: 812px;
+        left: 0px;
+        right: 0px;
+        top: 0;
+        bottom: 0;
     
         &-logo-box{
             box-shadow:  4px 4px 4px #bebebe, -4px -4px 4px #ffffff;
@@ -29,7 +31,8 @@
             }
         }
         &-link{
-            margin-top: 200px;
+            margin-top: 180px;
+            margin-bottom: 50px;
             display: flex;
             align-items: center;
     
@@ -55,7 +58,6 @@
     }
     .mobile-alignment{
         display: flex;
-        align-items: center;
         flex-direction: column;
     }
     .card{
