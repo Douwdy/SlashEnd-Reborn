@@ -163,6 +163,12 @@
     top: 0;
     bottom: 0;
   }
+  .leftside-cv-link {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .leftside-cv-backarrow {
     display: flex;
     align-items: center;

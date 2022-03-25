@@ -11,6 +11,12 @@
         top: 0;
         bottom: 0;
 
+        &-link{
+            margin-top: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         &-backarrow{
             display: flex;
             align-items: center;
