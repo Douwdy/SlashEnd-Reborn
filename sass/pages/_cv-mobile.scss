@@ -37,24 +37,31 @@
             margin-bottom: 50px;
         }
         &-card{
+            animation: scale-animation-backward 0.5 ease-in-out backwards;
+            &:hover{
+                animation: scale-animation 0.5s ease-in-out both;
+                transition-duration: 0.5s;
+            }
             &__image{
+                box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 
                 margin-top: 55px;
-                border-radius: 50px 50px 0px 0px;
+                border-radius: 30px 30px 0px 0px;
                 height: 300px;
                 width: 300px;
                 object-fit: cover;
             }
             &-bottom{
+                box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
                 display: flex;
                 align-items: center;
                 flex-direction: column;
                 height: 130px;
                 width: 300px;
-                border-radius: 0px 0px 50px 50px;
+                border-radius: 0px 0px 30px 30px;
                 background-color: $color-primary;
                 &__name{
                     font-size: 1.3em;
