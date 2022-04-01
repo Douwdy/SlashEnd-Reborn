@@ -85,4 +85,43 @@
             }
         }
     }
+    .card-cv{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        border-radius: 20px;
+        height: auto;
+        width: 515px;
+        
+        margin-left: 1000px;
+        margin-top: 200px;
+        background-color: $color-background;
+        box-shadow:  2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            margin: 15px;
+            border-radius: 25px;
+            height: 35px;
+            width: 300px;
+        }
+        p{
+            margin: 15px;
+            font-size: 1.6em;
+        }
+        &-bottom{
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            padding-left: 30px;
+            background-color: $color-primary;
+            color: white;
+            height: 80px;
+            font-size: 2.5em;
+            border-radius: 0px 0px 20px 20px;
+        }
+    }
 }

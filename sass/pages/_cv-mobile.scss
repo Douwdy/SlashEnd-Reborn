@@ -92,4 +92,34 @@
             }
         }
     }
+    .card-cv{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: $color-background;
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            margin: 15px;
+            border-radius: 25px;
+            height: 35px;
+            width: 300px;
+        }
+        p{
+            margin: 15px;
+            font-size: 1.6em;
+        }
+        &-bottom{
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            background-color: $color-primary;
+            color: white;
+            height: 50px;
+            font-size: 1.8em;
+        }
+    }
 }
