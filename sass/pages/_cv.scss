@@ -1,127 +1,164 @@
-@media screen and (min-width: 700px){
-    .leftside-cv{
+// Mobile Version
+@media screen and (max-width: 768px) {
+    .inbuild{
+        display: none;
+    }
+    .backarrow{
+        @include flex-center;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 10px;
+        height: 25px;
+        width: 25px;
+        background-color: white;
+    }
+    .topcard{
+        margin-top: 50px;
+        @include flex-center;
+        flex-direction: column;
+        img{
+            border-radius: 30px 30px 0px 0px;
+            height: 255px;
+            width: 269px;
+            object-fit: cover;
+            
+        }
+        &-bottom{
+            @include flex-center;
+            width: 269px;
+            height: 70px;
+            border-radius: 0px 0px 30px 30px;
+            background-color: $color-primary;
+            h1{
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+
+                font-size: 1.2em;
+                background-color: white;
+                border-radius: 50px;
+            }
+        }
+    }
+    .link{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 54px;
+        width: 297px;
+        a{
+            text-decoration: none;
+        }
+        &-box{
+            margin-top: 60px;
+            @include flex-center;
+            border-radius: 16px;
+            font-size: 2.2em;
+            color: $color-primary;
+            height: 54px;
+            width: 54px;
+            background-color: white;
+        }
+    }
+
+    .main-cv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .number{
+        @include flex-center;
+        color: white;
+        border-radius: 37px;
+        font-size: 1.5em;
+        background-color: rgba($color: #ffffff, $alpha: 0.3);
+        margin: 0px;
+        height: 37px;
+        width: 37px;
+    }
+
+    .card-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2{
+            @include flex-center;
+            background-color: white;
+            border-radius: 50px;
+            margin-left: 30px;
+            height: 37px;
+            width: 219px;
+        }
+    }
+
+    .presentation{
+        @include glass-effect;
+        @include flex-center;
+        @include neumorphism;
+        flex-direction: column;
+        width: 306px;
+        height: 458px;
+        margin-top: 50px;
+        &-text{
+            font-size: 1.2em;
+            width: 280px;
+            height: 322px;
+            color: white;
+        }
+    }
+    .diplomes{
+        @include glass-effect;
+        @include neumorphism;
         display: flex;
         align-items: center;
         flex-direction: column;
 
-        background-color: $color-secondary;
-
-        width: 750px;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-
-        &-link{
-            margin-top: 150px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        &-backarrow{
+        width: 306px;
+        height: 458px;
+        margin-top: 50px;
+        .grade{
             display: flex;
             align-items: center;
-            justify-content: center;
-
-            position: absolute;
-
-            font-size: 2em;
-            background-color: $color-background;
-            color: black;
-            border-radius: 50%;
-
-            margin-top: 15px;
-            margin-left: -350px;
-
-            height: 50px;
-            width: 50px;
-        }
-
-        &-card{
-            margin-top: -50px;
-            margin-bottom: -80px;
-            &__image{
-                margin-top: 150px;
-                border-radius: 50px 50px 0px 0px;
-                height: 350px;
-                width: 450px;
-                object-fit: cover;
-                margin-bottom: -5px;
-            }
-            &-bottom{
-                display: flex;
-                align-items: center;
-                flex-direction: column;
-                height: 150px;
-                width: 450px;
-                border-radius: 0px 0px 50px 50px;
+            background-color: white;
+            margin-top: 33px;
+            height: 72px;
+            width: 286px;
+            border-radius: 30px;
+            &-icon{
+                @include flex-center;
+                font-size: 2em;
+                color: white;
+                border-radius: 30px;
+                height: 72px;
+                width: 72px;
                 background-color: $color-primary;
-                &__name{
-                    font-size: 1.8em;
-                    margin-top: 25px;
-                    background-color: white;
-
-                    display: flex;
-                    justify-content: center;
-
-                    width: 350px;
-                    padding: 5px;
-
-                    border-radius: 50px;
+            }
+            &-text{
+                h3{
+                    font-size: 0.95em;
+                    padding-left: 5px;
                 }
-                &__age{
-                    font-size: 1.8em;
-                    background-color: white;
-
-                    display: flex;
-                    justify-content: center;
-
-                    width: 150px;
-                    padding: 5px;
-                    margin-top: 7px;
-                    margin-left: -80px;
-
-                    border-radius: 50px;
+                p{
+                    
+                    padding-left: 5px;
+                    margin-top: -15px;
+                    font-size: 0.8em;
+                    color: gray;
                 }
             }
         }
     }
-    .card-cv{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-
-        border-radius: 20px;
-        height: auto;
-        width: 515px;
-        
-        margin-left: 1000px;
-        margin-top: 200px;
-        background-color: $color-background;
-        box-shadow:  2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
-        h1{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: white;
-            margin: 15px;
-            border-radius: 25px;
-            height: 35px;
-            width: 300px;
-        }
-        p{
-            margin: 15px;
-            font-size: 1.6em;
-        }
-        &-bottom{
-            margin-top: 15px;
-            display: flex;
-            align-items: center;
-            padding-left: 30px;
-            background-color: $color-primary;
-            color: white;
-            height: 80px;
-            font-size: 2.5em;
-            border-radius: 0px 0px 20px 20px;
-        }
+}
+// Desktop Version
+@media screen and (min-width: 768px) {
+    .inbuild{
+        color: white;
+        @include flex-center;
+        visibility: visible; 
+    }
+    body{
+        visibility: hidden;
     }
 }

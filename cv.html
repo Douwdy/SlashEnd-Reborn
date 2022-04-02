@@ -9,35 +9,212 @@
         <script src="https://kit.fontawesome.com/0aa7525883.js" crossorigin="anonymous"></script>
         <title>SlashEnd - Site Personnel</title>
     </head>
-<body>
-
-    <nav class="leftside-cv">
-       <a href="index.html" aria-label="Retour a l'accueil">
-           <div class="leftside-cv-backarrow">
-               <i class="fa-solid fa-arrow-left"></i>
-            </div>
+<body class="cv">
+    <h1 class="inbuild">La version Ordinateur est en construction 🏗️</h1>
+    <header>
+        <a href="index.html">
+            <div class="backarrow"><i class="fa-solid fa-arrow-left"></i></div>
         </a>
-        <div class="leftside-cv-card">
-            <img class="leftside-cv-card__image" src="./public/img/pfp.jpg" alt="Photo de Lamarque Guillaume">
-            <div class="leftside-cv-card-bottom">
-                <div class="leftside-cv-card-bottom__name"><p>Guillaume Lamarque</p></div>
-                <div class="leftside-cv-card-bottom__age"><p>21 ans</p></div>
+        <div class="topcard">
+            <img src="/public/img/pfp.jpg" alt="Photo de Guillaume">
+            <div class="topcard-bottom">
+                <h1>Guillaume Lamarque</h1>
             </div>
         </div>
-        <div class="leftside-cv-link">
-			<a href="https://github.com/Douwdy" aria-label="Lien vers Github"><div class="leftside-link-box"><i class="fa-brands fa-git-alt"></i></div></a>
-			<a href="https://www.linkedin.com/in/guillaume-lamarque-00a888231/" aria-label="Lien vers LinkedIn"><div class="leftside-link-box"><i class="fa-brands fa-linkedin"></i></div></a>
-			<a href="mailto:guillaumelamarque7@gmail.com" aria-label="Envoyer un mail"><div class="leftside-link-box"><i class="fa-solid fa-paper-plane"></i></div></a>
-		</div>
-    </nav>
-    <section class="card-cv">
-        <h1>Présentation personnelle</h1>
-        <p>Je suis actuellement en formation de développement web chez OpenClassrooms,
-         cependant je code depuis l'âge de 15 ans, j'ai débuté avec le Java sur Eclipse,
-         puis je me suis intéressé au web par le biais d'un ami, et grâce à ça je me suis
-         initié à l'HTML et au CSS, c'est pour cela que je me suis lancé dans cette formation,
-         pour me professionnaliser dans un domaine qui me passionne depuis mon adolescence !</p>
-        <div class="card-cv-bottom"><i class="fa-solid fa-id-card-clip"></i></div>
-    </section>
+        <nav class="link">
+            <a href="https://github.com/Douwdy">
+                <div class="link-box">
+                    <i class="fa-brands fa-git-alt"></i>
+                </div>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/guillaume-lamarque-00a888231/">
+                <div class="link-box">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </a>
+                        
+            <a href="portfolio.html">
+                <div class="link-box">
+                    <i class="fa-solid fa-folder-open"></i>
+                </div>
+            </a>
+                        
+            <a href="mailto:guillaumelamarque7@gmail.com">
+                <div class="link-box">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </div>
+            </a>
+        </nav>
+    </header>
+    <main class="main-cv">
+        <section class="presentation">
+            <div class="card-header">
+                <p class="number">1</p>
+                <h2>Présentation</h2>
+            </div>
+            <p class="presentation-text">Je suis actuellement en
+                formation de développement
+                web chez OpenClassrooms,
+                cependant je code depuis l'âge
+                de 15 ans, j'ai débuté avec le
+                Java sur Eclipse, puis je me suis
+                intéressé au web par le biais
+                d'un ami, et grâce à ça je me
+                suis initié à l'HTML et au CSS,
+                c'est pour cela que je me suis
+                lancé dans cette formation, pour
+                me professionnaliser dans un
+                domaine qui me passionne
+                depuis mon adolescence !</p>
+        </section>
+        <section class="diplomes">
+            <div class="card-header">
+                <p class="number">2</p>
+                <h2>Diplômes</h2>
+            </div>
+            <div class="grade">
+                <div class="grade-icon">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="grade-text">
+                    <h3>Formation Développeur Web</h3>
+                    <p>OpenClassrooms<br>
+                        À distrance<br>
+                        2022</p>
+                </div>
+            </div>
+            <div class="grade">
+                <div class="grade-icon">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="grade-text">
+                    <h3>BAC Électrotechnique</h3>
+                    <p>Lycée Victor Duruy<br>
+                        Bagnères de Bigorre<br>
+                        2016 - 2018</p>
+                </div>
+            </div>
+            <div class="grade">
+                <div class="grade-icon">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="grade-text">
+                    <h3>BEP Électrotechnique</h3>
+                    <p>Lycée Victor Duruy<br>
+                        Bagnères de Bigorre<br>
+                        2017</p>
+                </div>
+            </div>
+        </section>
+        <section class="language">
+            <p class="number">3</p>
+            <h2>Langues</h2>
+            <div class="language-box">
+                <div class="language-box__icon">🥐</div>
+                <h3>Français</h3>
+                <p>Langue natale</p>
+            </div>
+            <div class="language-box">
+                <div class="language-box__icon">🍔</div>
+                <h3>Anglais</h3>
+                <p>Niveau C1</p>
+            </div>
+            <div class="language-box">
+                <div class="language-box__icon">🌮</div>
+                <h3>Espagnol</h3>
+                <p>Niveau A2</p>
+            </div>
+        </section>
+        <section class="hard-skills">
+            <p class="number">4</p>
+            <h2>Hard Skills</h2>
+            <h3>Langages</h3>
+            <div class="skill-box">
+                <div class="skill-box__icon">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <h4>HTML</h4>
+                <div class="skill-box-bar">
+                    <div class="skill-box-bar__progress"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-box__icon">
+                    <i class="fa-brands fa-css3"></i>
+                </div>
+                <h4>CSS</h4>
+                <div class="skill-box-bar">
+                    <div class="skill-box-bar__progress"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-box__icon">
+                    <i class="fa-brands fa-java"></i>
+                </div>
+                <h4>Java</h4>
+                <div class="skill-box-bar">
+                    <div class="skill-box-bar__progress"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-box__icon">
+                    <i class="fa-brands fab fa-js-square"></i>
+                </div>
+                <h4>JavaScript</h4>
+                <div class="skill-box-bar">
+                    <div class="skill-box-bar__progress"></div>
+                </div>
+            </div>
+            <h3>Frameworks</h3>
+            <div class="skill-box">
+                <div class="skill-box__icon">
+                    <i class="fa-brands fab fa-sass"></i>
+                </div>
+                <h4>Sass</h4>
+                <div class="skill-box-bar">
+                    <div class="skill-box-bar__progress"></div>
+                </div>
+            </div>
+        </section>
+        <section class="soft-skills">
+            <p class="number">5</p>
+            <h2>Soft Skills</h2>
+            <div class="skill-box">
+                <h3>Autonomie</h3>
+                <div class="skill-box-bar">
+                    <div class="skill-box-bar__progress"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h4>Travail en équipe</h4>
+                <div class="skill-box-bar">
+                    <div class="skill-box-bar__progress"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h4>Créativité</h4>
+                <div class="skill-box-bar">
+                    <div class="skill-box-bar__progress"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h4>Esprit d'entreprise</h4>
+                <div class="skill-box-bar">
+                    <div class="skill-box-bar__progress"></div>
+                </div>
+            </div>
+            <div class="skill-box">
+                <h4>Esprit critique</h4>
+                <div class="skill-box-bar">
+                    <div class="skill-box-bar__progress"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="footer-fade"></div>
+    <footer>
+        <h2>Il n'y a plus rien a voir ici 👀</h2>
+    </footer>
 </body>
 </html>

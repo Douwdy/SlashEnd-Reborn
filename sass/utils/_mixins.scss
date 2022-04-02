@@ -1,0 +1,17 @@
+@mixin glass-effect {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin neumorphism {
+    box-shadow:  4px 4px 4px rgba($color: black, $alpha: 0.3), -4px -4px 4px rgba($color: white, $alpha: 0.3);
+}

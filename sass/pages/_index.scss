@@ -1,92 +1,91 @@
-@media screen and (min-width: 700px){
-    .leftside{
-        display: flex;
-        align-items: center;
+// Mobile Version
+@media screen and (max-width: 768px) {
+    .header-index{
+        margin-top: 20px;
+        @include glass-effect;
+        @include neumorphism;
+        @include flex-center;
         flex-direction: column;
-
-        background-color: $color-secondary;
-
-        width: 630px;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-
-        &-logo-box{
-            box-shadow:  4px 4px 4px #bebebe, -4px -4px 4px #ffffff;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            margin-top: 150px;
-
-            height: 330px;
-            width: 330px;
+        height: 384px;
+        width: 306px;
+        .logo-index{
+            @include flex-center;
+            @include neumorphism;
+            height: 197px;
+            width: 197px;
             border-radius: 90px;
-
-            background-color: $color-background;
+            background-color: white;
             img{
-                height: 195px;
-                width: 215px;
+                height: 127px;
+                width: 117px;
             }
         }
-        &-link{
-            margin-top: 150px;
+        .link{
             display: flex;
             align-items: center;
-
+            justify-content: space-between;
+            height: 54px;
+            width: 233px;
+            a{
+                text-decoration: none;
+            }
             &-box{
-                margin: 10px;
-                border-radius: 40px;
-                box-shadow:  2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
-
-                height: 130px;
-                width: 130px;
-
+                margin-top: 80px;
+                @include flex-center;
+                border-radius: 16px;
+                font-size: 2.2em;
+                color: $color-primary;
+                height: 54px;
+                width: 54px;
                 background-color: white;
-
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                i{
-                    font-size: 5em;
-                    color: $color-primary;
-                }
             }
         }
     }
-
-    .card{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        position: absolute;
-        position: fixed;
-
-        padding-left: 50px;
-        margin-top: -480px;
-        margin-left: 800px;
-        border-radius: 60px;
-
-        box-shadow:  2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
-        background-color: $color-background;
-
-        height: 580px;
-        width: 920px;
+    .welcome{
+        margin-top: 20px;
+        @include glass-effect;
+        @include neumorphism;
+        width: 306px;
         &-text{
-            font-size: 2em;
+            @include flex-center;
+            flex-direction: column;
+            padding: 10px;
+            h1{
+                @include flex-center;
+                border-radius: 15px;
+                width: 250px;
+                font-size: 1.2em;
+                color: black;
+                background-color: white;
+            }
+            p{
+                color: white;
+                font-size: 1.4em;
+            }
         }
     }
+    .footer-fade{
+        height: 320px;
+        width: 100%;
+        background: linear-gradient(0deg, rgba(1,0,57,1) 0%, rgba(255,121,218,0) 100%);
+    }
+    footer{
+        height: 95px;
+        width: 100%;
+        @include flex-center;
+        line-height: 1px;
+        color: white;
+        background-color: $color-footer;
+    }
+}
 
-    .bottom-card{
-        background-color: $color-primary;
-
-        margin-top: 600px;
-        padding-left: 50px;
-        margin-left: 800px;
-        
-        border-radius: 60px;
-        height: 165px;
-        width: 920px;
+@media screen and (min-width: 768px) {
+    .inbuild{
+        color: white;
+        @include flex-center;
+        visibility: visible; 
+    }
+    body{
+        visibility: hidden;
     }
 }
