@@ -3,6 +3,26 @@
     html{
         background-color: $color-background;
     }
+    body.index{
+        background-image: url(/public/img/background-shapes-desktop.svg);
+        background-position: center;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    body.cv{
+        background-image: url(/public/img/background-shapes-desktop.svg);
+        background-position: center;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
 // Mobile Version

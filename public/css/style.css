@@ -441,6 +441,28 @@
   html {
     background-color: #020065;
   }
+
+  body.index {
+    background-image: url(/public/img/background-shapes-desktop.svg);
+    background-position: center;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  body.cv {
+    background-image: url(/public/img/background-shapes-desktop.svg);
+    background-position: center;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 768px) {
   html {
