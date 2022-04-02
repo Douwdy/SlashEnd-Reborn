@@ -150,6 +150,129 @@
             }
         }
     }
+    .language{
+        @include glass-effect;
+        @include neumorphism;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        width: 306px;
+        height: 273px;
+        margin-top: 50px;
+        &-text{
+            h3{
+                font-size: 0.83em;
+                padding-left: 5px;
+            }
+            p{
+                
+                padding-left: 5px;
+                margin-top: -15px;
+                font-size: 0.8em;
+                color: gray;
+            }
+        }
+        &-box{
+            display: flex;
+            align-items: center;
+
+            margin-top: 10px;
+            background-color: white;
+            border-radius: 10px;
+            height: 50px;
+            width: 166px;
+            &__icon{
+                @include flex-center;
+                font-size: 2em;
+                color: white;
+                border-radius: 10px;
+                height: 50px;
+                width: 50px;
+                background-color: $color-primary;
+            }
+        }
+    }
+    .hard-skills{
+        @include glass-effect;
+        @include neumorphism;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        width: 306px;
+        height: 458px;
+        margin-top: 50px;
+        h3{
+            color: white;
+        }
+        .skill-box{
+            display: flex;
+            align-items: center;
+
+            background-color: white;
+            margin-top: 5px;
+            border-radius: 35px;
+            height: 35px;
+            width: 253px;
+            &__icon{
+                font-size: 1.6em;
+                padding-right: 5px;
+                padding-left: 15px;
+            }
+            &-bar{
+                position: absolute;
+                background-color: $color-skill;
+                height: 16px;
+                width: 100px;
+                border-radius: 16px;
+                margin-left: 145px;
+                &__progress{
+                    background-color: $color-primary;
+                    height: 16px;
+                    border-radius: 16px;
+                    width: 80%;
+                }
+            }
+        }
+    }
+    .soft-skills{
+        @include glass-effect;
+        @include neumorphism;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        width: 306px;
+        height: 400px;
+        margin-top: 50px;
+        h4{
+            margin-left: 13px;
+        }
+        .skill-box{
+            display: flex;
+            align-items: center;
+
+            background-color: white;
+            margin-top: 23px;
+            border-radius: 35px;
+            height: 35px;
+            width: 253px;
+            &-bar{
+                position: absolute;
+                background-color: $color-skill;
+                height: 16px;
+                width: 100px;
+                border-radius: 16px;
+                margin-left: 145px;
+                &__progress{
+                    background-color: $color-primary;
+                    height: 16px;
+                    border-radius: 16px;
+                }
+            }
+        }
+    }
 }
 // Desktop Version
 @media screen and (min-width: 768px) {
