@@ -76,6 +76,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    height: 30px;
     width: 250px;
     font-size: 1.2em;
     color: black;
@@ -86,8 +87,24 @@
     font-size: 1.4em;
   }
 
+  .visit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 57px;
+    width: 227px;
+    border-radius: 57px;
+    font-size: 1.3em;
+    background-color: #5E26FF;
+  }
+  .visit a {
+    color: white;
+    text-decoration: none;
+  }
+
   .footer-fade {
-    height: 320px;
+    height: 520px;
     width: 100%;
     background: linear-gradient(0deg, #010039 0%, rgba(255, 121, 218, 0) 100%);
   }
@@ -480,6 +497,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
 

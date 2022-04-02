@@ -53,6 +53,7 @@
             h1{
                 @include flex-center;
                 border-radius: 15px;
+                height: 30px;
                 width: 250px;
                 font-size: 1.2em;
                 color: black;
@@ -64,8 +65,22 @@
             }
         }
     }
+    .visit{
+        @include flex-center;
+        margin-top: 50px;
+        height: 57px;
+        width: 227px;
+
+        border-radius: 57px;
+        font-size: 1.3em;
+        background-color: $color-primary;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
     .footer-fade{
-        height: 320px;
+        height: 520px;
         width: 100%;
         background: linear-gradient(0deg, rgba(1,0,57,1) 0%, rgba(255,121,218,0) 100%);
     }

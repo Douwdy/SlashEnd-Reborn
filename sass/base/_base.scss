@@ -40,6 +40,11 @@
         justify-content: center;
         flex-direction: column;
     }
+    main{
+        @include flex-center;
+        flex-direction: column;
+    }
+    
     body.cv{
         background-image: url(/public/img/background-shapes-cv.svg);
         background-position: center;
