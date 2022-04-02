@@ -8,6 +8,7 @@
         border-radius: 50%;
         position: absolute;
         margin-top: 10px;
+        margin-left: 10px;
         height: 25px;
         width: 25px;
         background-color: white;
@@ -49,9 +50,9 @@
         width: 297px;
         a{
             text-decoration: none;
+            margin-top: 60px;
         }
         &-box{
-            margin-top: 60px;
             @include flex-center;
             border-radius: 16px;
             font-size: 2.2em;

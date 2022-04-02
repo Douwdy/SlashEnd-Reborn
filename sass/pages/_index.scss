@@ -28,9 +28,9 @@
             width: 233px;
             a{
                 text-decoration: none;
+                margin-top: 80px;
             }
             &-box{
-                margin-top: 80px;
                 @include flex-center;
                 border-radius: 16px;
                 font-size: 2.2em;
