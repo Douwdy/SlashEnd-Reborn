@@ -3,7 +3,7 @@
     html{
         background-color: $color-background;
     }
-    body.index{
+    .index{
         background-image: url(/public/img/background-shapes-desktop.svg);
         background-position: center;
         padding: 0px;
@@ -13,11 +13,13 @@
         justify-content: center;
         flex-direction: column;
     }
-    body.cv{
-        background-image: url(/public/img/background-shapes-desktop.svg);
+    .cv{
+        background-image: url(/public/img/background-shapes-cv.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
+    }
+    header{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -30,7 +32,7 @@
     html{
         background-color: $color-background;
     }
-    body.index{
+    .index{
         background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
@@ -40,12 +42,12 @@
         justify-content: center;
         flex-direction: column;
     }
-    main{
+    .main-index{
         @include flex-center;
         flex-direction: column;
     }
     
-    body.cv{
+    .cv{
         background-image: url(/public/img/background-shapes-cv.svg);
         background-position: center;
         padding: 0px;
