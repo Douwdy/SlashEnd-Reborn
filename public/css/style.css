@@ -442,6 +442,22 @@
     border-radius: 16px;
   }
 }
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: 45px;
+  width: 250px;
+  border-radius: 57px;
+  font-size: 1.3em;
+  background-color: #5E26FF;
+}
+.download a {
+  color: white;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   .inbuild {
     color: white;
