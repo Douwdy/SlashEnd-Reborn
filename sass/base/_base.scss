@@ -2,6 +2,7 @@
 @media screen and (min-width: 768px) {
     html{
         background-color: $color-background;
+        scroll-behavior: smooth;
     }
     .index{
         background-image: url(/public/img/background-shapes-desktop.svg);
@@ -31,6 +32,7 @@
 @media screen and (max-width: 768px) {
     html{
         background-color: $color-background;
+        scroll-behavior: smooth;
     }
     .index{
         background-image: url(/public/img/background-shapes.svg);

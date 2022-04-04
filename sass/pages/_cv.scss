@@ -274,6 +274,48 @@
             }
         }
     }
+    .portfolio{
+        @include glass-effect;
+        @include neumorphism;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        width: 306px;
+        height: 458px;
+        margin-top: 50px;
+        h4{
+            margin-left: 13px;
+            font-size: 0.90em;
+        }
+        .project-box{
+            display: flex;
+            align-items: center;
+
+            background-color: white;
+            margin-top: 23px;
+            border-radius: 35px;
+            height: 35px;
+            width: 253px;
+            &-btn{
+                position: absolute;
+                background-color: $color-skill;
+                height: 16px;
+                width: 100px;
+                border-radius: 16px;
+                margin-bottom: 5px;
+                margin-left: 145px;
+                text-decoration: none;
+                &__layout{
+                    @include flex-center;
+                    color: white;
+                    background-color: $color-primary;
+                    height: 22px;
+                    border-radius: 16px;
+                }
+            }
+        }
+    }
 }
 
 .download{
@@ -361,7 +403,6 @@
 
     .main-cv{
         margin-top: 40px;
-        max-width: 1200px;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -581,7 +622,49 @@
             }
         }
     }
-}
+    .portfolio{
+            @include glass-effect;
+            @include neumorphism;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+    
+            width: 306px;
+            height: 458px;
+            margin-top: 50px;
+            h4{
+                margin-left: 13px;
+                font-size: 0.90em;
+            }
+            .project-box{
+                display: flex;
+                align-items: center;
+    
+                background-color: white;
+                margin-top: 23px;
+                border-radius: 35px;
+                height: 35px;
+                width: 253px;
+                &-btn{
+                    position: absolute;
+                    background-color: $color-skill;
+                    height: 16px;
+                    width: 100px;
+                    border-radius: 16px;
+                    margin-bottom: 5px;
+                    margin-left: 145px;
+                    text-decoration: none;
+                    &__layout{
+                        @include flex-center;
+                        color: white;
+                        background-color: $color-primary;
+                        height: 22px;
+                        border-radius: 16px;
+                    }
+                }
+            }
+        }
+    }
 .download{
     @include flex-center;
     margin-top: 50px;
