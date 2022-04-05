@@ -3,14 +3,12 @@
     .header-index{
         margin-top: 20px;
         @include glass-effect;
-        @include neumorphism;
         @include flex-center;
         flex-direction: column;
         height: 384px;
         width: 306px;
         .logo-index{
             @include flex-center;
-            @include neumorphism;
             height: 197px;
             width: 197px;
             border-radius: 90px;
@@ -45,7 +43,6 @@
     .welcome{
         margin-top: 20px;
         @include glass-effect;
-        @include neumorphism;
         width: 306px;
         &-text{
             @include flex-center;
@@ -106,14 +103,12 @@
     .header-index{
         margin-top: 20px;
         @include glass-effect;
-        @include neumorphism;
         @include flex-center;
         flex-direction: column;
         height: 384px;
         width: 608px;
         .logo-index{
             @include flex-center;
-            @include neumorphism;
             height: 197px;
             width: 197px;
             border-radius: 90px;
@@ -148,7 +143,6 @@
     .welcome{
         margin-top: 20px;
         @include glass-effect;
-        @include neumorphism;
         width: 460px;
         &-text{
             @include flex-center;

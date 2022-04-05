@@ -99,7 +99,6 @@
     .presentation{
         @include glass-effect;
         @include flex-center;
-        @include neumorphism;
         flex-direction: column;
         width: 306px;
         height: 458px;
@@ -113,7 +112,6 @@
     }
     .diplomes{
         @include glass-effect;
-        @include neumorphism;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -155,7 +153,6 @@
     }
     .language{
         @include glass-effect;
-        @include neumorphism;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -198,7 +195,6 @@
     }
     .hard-skills{
         @include glass-effect;
-        @include neumorphism;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -241,7 +237,6 @@
     }
     .soft-skills{
         @include glass-effect;
-        @include neumorphism;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -279,7 +274,6 @@
     }
     .portfolio{
         @include glass-effect;
-        @include neumorphism;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -448,7 +442,6 @@
     .presentation{
         @include glass-effect;
         @include flex-center;
-        @include neumorphism;
         flex-direction: column;
         width: 306px;
         height: 458px;
@@ -462,7 +455,6 @@
     }
     .diplomes{
         @include glass-effect;
-        @include neumorphism;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -504,7 +496,6 @@
     }
     .language{
         @include glass-effect;
-        @include neumorphism;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -553,7 +544,6 @@
     }
     .hard-skills{
         @include glass-effect;
-        @include neumorphism;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -596,7 +586,6 @@
     }
     .soft-skills{
         @include glass-effect;
-        @include neumorphism;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -634,7 +623,6 @@
     }
     .portfolio{
             @include glass-effect;
-            @include neumorphism;
             display: flex;
             align-items: center;
             flex-direction: column;

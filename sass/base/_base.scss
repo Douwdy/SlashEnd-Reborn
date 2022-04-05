@@ -14,6 +14,18 @@
         justify-content: center;
         flex-direction: column;
     }
+    .body-keyboard{
+        background-image: url(/public/img/background-shapes-cv.svg);
+        background-position: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .main-keyboard{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
     .cv{
         background-image: url(/public/img/background-shapes-cv.svg);
         background-position: center;
@@ -47,6 +59,18 @@
     .main-index{
         @include flex-center;
         flex-direction: column;
+    }
+
+    .main-keyboard{
+        @include flex-center;
+        flex-direction: column;
+    }
+
+    .keyboard{
+        background-image: url(/public/img/background-shapes-cv.svg);
+        background-position: center;
+        padding: 0px;
+        margin: 0px;
     }
     
     .cv{

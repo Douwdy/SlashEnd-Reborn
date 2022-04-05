@@ -1,0 +1,274 @@
+.keyboard{
+    @include glass-effect;
+
+    width: 1010px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    &-align{
+        &__1{
+            @include flex-center;
+            flex-direction: column;
+        }
+        &__2{
+            @include flex-center;
+            flex-direction: row;
+        }
+    }
+    &-zone-1{
+        margin: 15px;
+        width: 643px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        &__group{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            width: 170px;
+        }
+    }
+    &-zone-2{
+        width: 645px;
+        height: 215px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    &-zone-3{
+        font-size: 0.75em;
+        width: 130px;
+        height: 300px;
+
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        &__1{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            width: 126px;
+            margin-top: 1px;
+        }
+        &__2{
+            display: flex;
+            align-items: center;
+            align-content: space-between;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 126px;
+            height: 83px;
+            margin-top: 24px;
+            margin-bottom: 68px;
+        }
+        &__3{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            width: 126px;
+            &__uparrow{
+                position: absolute;
+                margin-top: 217px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 126px;
+            }
+        }
+    }
+    &-zone-4{
+        width: 170px;
+        height: 216px;
+        margin-top: 85px;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .numpad-align__1{
+            width: 126px;
+            height: 215px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .numpad-align__2{
+            width: 40px;
+            height: 215px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+.key{
+    @include key-font;
+    @include flex-center;
+    @include neumorphism;
+    background-color: $color-key;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    &-tab{
+        width: 56px;
+
+        height: 40px;
+        border-radius: 5px;
+        background-color: $color-key;
+        @include flex-center;
+        @include key-font;
+        @include neumorphism;
+    }
+    &-space{
+        width: 272px;
+
+        height: 40px;
+        border-radius: 5px;
+        background-color: $color-key;
+        @include flex-center;
+        @include key-font;
+        @include neumorphism;
+    }
+    &-lock{
+        width: 66px;
+
+        height: 40px;
+        border-radius: 5px;
+        background-color: $color-key;
+        @include flex-center;
+        @include key-font;
+        @include neumorphism;
+    }
+    &-backspace{
+        width: 85px;
+
+        height: 40px;
+        border-radius: 5px;
+        background-color: $color-key;
+        @include flex-center;
+        @include key-font;
+        @include neumorphism;
+    }
+    &-enter{
+        width: 69px;
+
+        height: 40px;
+        border-radius: 5px 5px 0px 5px;
+        background-color: $color-key;
+        @include flex-center;
+        @include key-font;
+        @include neumorphism;
+    }
+    &-enter2{
+        width: 59px;
+
+        height: 40px;
+        border-radius: 0 0 5px 5px;
+        background-color: $color-key;
+        @include flex-center;
+        @include key-font;
+        @include neumorphism;
+    }
+    &-LShift{
+        width: 122px;
+
+        height: 40px;
+        border-radius: 5px;
+        background-color: $color-key;
+        @include flex-center;
+        @include key-font;
+        @include neumorphism;
+    }
+    &-RShift{
+        width: 46px;
+
+        height: 40px;
+        border-radius: 5px;
+        background-color: $color-key;
+        @include flex-center;
+        @include key-font;
+        @include neumorphism;
+    }
+    &-LCtrl{
+        width: 49px;
+
+        height: 40px;
+        border-radius: 5px;
+        background-color: $color-key;
+        @include flex-center;
+        @include key-font;
+        @include neumorphism;
+    }
+    &-RCtrl{
+        width: 58px;
+
+        height: 40px;
+        border-radius: 5px;
+        background-color: $color-key;
+        @include flex-center;
+        @include key-font;
+        @include neumorphism;
+    }
+    &-bottomgeneric{
+        width: 49px;
+
+        height: 40px;
+        border-radius: 5px;
+        background-color: $color-key;
+        @include flex-center;
+        @include key-font;
+        @include neumorphism;
+    }
+    &-long{
+        width: 40px;
+        height: 83px;
+
+        border-radius: 5px;
+        background-color: $color-key;
+        @include flex-center;
+        @include key-font;
+        @include neumorphism;
+        &-enter{
+            width: 40px;
+            height: 83px;
+            font-size: 0.8em;
+
+            border-radius: 5px;
+            background-color: $color-key;
+            @include flex-center;
+            @include key-font;
+            @include neumorphism;
+        }
+        &-0{
+            width: 83px;
+            height: 40px;
+
+            border-radius: 5px;
+            background-color: $color-key;
+            @include flex-center;
+            @include key-font;
+            @include neumorphism;
+        }
+    }    
+}
