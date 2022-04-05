@@ -59,6 +59,9 @@
             height: 54px;
             width: 54px;
             background-color: white;
+            &:hover{
+                animation: link-animation 150ms ease-in-out both;
+            }
         }
     }
 
@@ -331,6 +334,9 @@
         color: white;
         text-decoration: none;
     }
+    &:hover{
+        animation: btn-animation 150ms ease-in-out both;
+    }
 }
 
 .download-align{
@@ -398,7 +404,11 @@
             height: 54px;
             width: 54px;
             background-color: white;
+            &:hover{
+                animation: link-animation 150ms ease-in-out both;
+            }
         }
+        
     }
 
     .main-cv{
@@ -677,5 +687,8 @@
     a{
         color: white;
         text-decoration: none;
+    }
+    &:hover{
+        animation: btn-animation 150ms ease-in-out both;
     }
 }

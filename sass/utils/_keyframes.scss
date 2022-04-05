@@ -1,0 +1,19 @@
+@keyframes btn-animation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+        background: lighten($color-primary, 3);
+        box-shadow:  4px 4px 4px rgba($color: black, $alpha: 0.3)
+    }
+}
+@keyframes link-animation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+        box-shadow:  4px 4px 4px rgba($color: black, $alpha: 0.3)
+    }
+}
