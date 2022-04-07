@@ -49,7 +49,7 @@
   .header-index .logo-index img {
     height: 127px;
     width: 117px;
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(-2px -2px 2px white);
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(-2px -2px 2px rgb(255, 255, 255));
   }
   .header-index .link {
     display: flex;
@@ -136,7 +136,7 @@
   .footer-fade {
     height: 520px;
     width: 100%;
-    background: linear-gradient(0deg, #010039 0%, rgba(255, 121, 218, 0) 100%);
+    background: linear-gradient(0deg, rgb(1, 0, 57) 0%, rgba(255, 121, 218, 0) 100%);
   }
 
   footer {
@@ -178,7 +178,7 @@
   .header-index .logo-index img {
     height: 127px;
     width: 117px;
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(-2px -2px 2px white);
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(-2px -2px 2px rgb(255, 255, 255));
   }
   .header-index .link {
     display: flex;
@@ -265,7 +265,7 @@
   .footer-fade {
     height: 320px;
     width: 100%;
-    background: linear-gradient(0deg, #010039 0%, rgba(255, 121, 218, 0) 100%);
+    background: linear-gradient(0deg, rgb(1, 0, 57) 0%, rgba(255, 121, 218, 0) 100%);
   }
 
   footer {
