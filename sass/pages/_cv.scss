@@ -179,7 +179,7 @@
 
             margin-top: 10px;
             background-color: white;
-            border-radius: 10px;
+            border-radius: 15px;
             height: 50px;
             width: 166px;
             &__icon{
@@ -521,7 +521,7 @@
             align-items: center;
             margin-top: 10px;
             background-color: white;
-            border-radius: 10px;
+            border-radius: 15px;
             height: 70px;
             width: 200px;
             &__icon{
@@ -679,4 +679,8 @@
     &:hover{
         animation: btn-animation 150ms ease-in-out both;
     }
+}
+
+.fa-circle-notch{
+    animation: spin 2s linear infinite both;
 }
