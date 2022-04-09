@@ -1,11 +1,10 @@
 .keyboard{
     @include glass-effect;
 
-    width: 1010px;
+    width: 1025px;
     height: 320px;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: row;
 
     &-align{
