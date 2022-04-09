@@ -1,0 +1,43 @@
+.Error{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &-short{
+        margin-top: 5px;
+        margin-right: 5px;
+        height: 65px;
+        min-width: 255px;
+        border-radius: 65px;
+    }
+    &-medium{
+        margin-top: 5px;
+        margin-right: 5px;
+        height: 65px;
+        min-width: 350px;
+        border-radius: 65px;
+    }
+    &-long{
+        margin-top: 5px;
+        margin-right: 5px;
+        height: 65px;
+        min-width: 400px;
+        border-radius: 65px;
+    }
+    &-light{
+        background-color: $color-secondary;
+    }
+    &-dark{
+        background-color: $color-primary;
+    }
+    &-container{
+        color: white;
+        &-title{
+            font-size: 8em;
+        }
+        &-desc{
+            font-size: 1.5em;
+        }
+    }
+}

@@ -1343,6 +1343,50 @@
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 
+.Error {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Error-short {
+  margin-top: 5px;
+  margin-right: 5px;
+  height: 65px;
+  min-width: 255px;
+  border-radius: 65px;
+}
+.Error-medium {
+  margin-top: 5px;
+  margin-right: 5px;
+  height: 65px;
+  min-width: 350px;
+  border-radius: 65px;
+}
+.Error-long {
+  margin-top: 5px;
+  margin-right: 5px;
+  height: 65px;
+  min-width: 400px;
+  border-radius: 65px;
+}
+.Error-light {
+  background-color: #C8B5FF;
+}
+.Error-dark {
+  background-color: #5E26FF;
+}
+.Error-container {
+  color: white;
+}
+.Error-container-title {
+  font-size: 8em;
+}
+.Error-container-desc {
+  font-size: 1.5em;
+}
+
 /* Layout */
 /* Base */
 .hidden {
