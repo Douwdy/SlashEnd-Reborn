@@ -37,6 +37,9 @@
                 height: 54px;
                 width: 54px;
                 background-color: white;
+                &:hover{
+                    animation: link-animation 150ms ease-in-out both;
+                }
             }
         }
     }
@@ -137,6 +140,9 @@
                 height: 54px;
                 width: 54px;
                 background-color: white;
+                &:hover{
+                    animation: link-animation 150ms ease-in-out both;
+                }
             }
         }
     }

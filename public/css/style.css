@@ -13,10 +13,12 @@
 }
 @keyframes link-animation {
   0% {
-    transform: scale(1);
+    transform: translateX(0px);
+    transform: translateY(0px);
   }
   100% {
-    transform: scale(1.05);
+    transform: translateX(-5px);
+    transform: translateY(-5px);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
   }
 }
@@ -80,6 +82,9 @@
     height: 54px;
     width: 54px;
     background-color: white;
+  }
+  .header-index .link-box:hover {
+    animation: link-animation 150ms ease-in-out both;
   }
 
   .welcome {
@@ -209,6 +214,9 @@
     height: 54px;
     width: 54px;
     background-color: white;
+  }
+  .header-index .link-box:hover {
+    animation: link-animation 150ms ease-in-out both;
   }
 
   .welcome {
