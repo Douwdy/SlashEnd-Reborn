@@ -10,7 +10,7 @@
         scroll-behavior: smooth;
     }
     .index{
-        background-image: url(/public/img/background-shapes-desktop.svg);
+        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
@@ -20,7 +20,7 @@
         flex-direction: column;
     }
     .body-keyboard{
-        background-image: url(/public/img/background-shapes-cv.svg);
+        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
@@ -33,7 +33,7 @@
         flex-direction: column;
     }
     .cv{
-        background-image: url(/public/img/background-shapes-cv.svg);
+        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
@@ -43,6 +43,13 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .error{
+        background-image: url(/public/img/background-shapes.svg);
+        background-position: center;
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
     }
 }
 
@@ -73,14 +80,14 @@
     }
 
     .keyboard{
-        background-image: url(/public/img/background-shapes-cv.svg);
+        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
     }
     
     .cv{
-        background-image: url(/public/img/background-shapes-cv.svg);
+        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
@@ -90,5 +97,11 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .error{
+        background-image: url(/public/img/background-shapes.svg);
+        background-position: center;
+        padding: 0px;
+        margin: 0px;
     }
 }

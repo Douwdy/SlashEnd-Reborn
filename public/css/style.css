@@ -1351,50 +1351,86 @@
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 
-.Error {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
+@media screen and (min-width: 768px) {
+  .error-container {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    height: 100vh;
+  }
+  .error-container-content {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+  }
+  .error-container-content-title {
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  .error-container-content-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5E26FF;
+    border-radius: 50px;
+    height: 50px;
+    width: 175px;
+  }
+  .error-container-content-actions a {
+    color: white;
+    text-decoration: none;
+  }
+  .error-container-content-actions:hover {
+    animation: link-animation 150ms ease-in-out both;
+  }
 }
-.Error-short {
-  margin-top: 5px;
-  margin-right: 5px;
-  height: 65px;
-  min-width: 255px;
-  border-radius: 65px;
+@media screen and (max-width: 768px) {
+  .error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .error-container-content {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+  }
+  .error-container-content-title {
+    font-size: 1.1em;
+    color: white;
+    width: 300px;
+    height: 70px;
+  }
+  .error-container-content-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5E26FF;
+    border-radius: 50px;
+    height: 50px;
+    width: 250px;
+    margin-top: 90px;
+  }
+  .error-container-content-actions a {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+  }
+  .error-container-content-actions:hover {
+    animation: link-animation 150ms ease-in-out both;
+  }
 }
-.Error-medium {
-  margin-top: 5px;
-  margin-right: 5px;
-  height: 65px;
-  min-width: 350px;
-  border-radius: 65px;
-}
-.Error-long {
-  margin-top: 5px;
-  margin-right: 5px;
-  height: 65px;
-  min-width: 400px;
-  border-radius: 65px;
-}
-.Error-light {
-  background-color: #C8B5FF;
-}
-.Error-dark {
-  background-color: #5E26FF;
-}
-.Error-container {
-  color: white;
-}
-.Error-container-title {
-  font-size: 8em;
-}
-.Error-container-desc {
-  font-size: 1.5em;
-}
-
 /* Layout */
 /* Base */
 .hidden {
@@ -1409,7 +1445,7 @@
   }
 
   .index {
-    background-image: url(/public/img/background-shapes-desktop.svg);
+    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
     margin: 0px;
@@ -1420,7 +1456,7 @@
   }
 
   .body-keyboard {
-    background-image: url(/public/img/background-shapes-cv.svg);
+    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
     margin: 0px;
@@ -1434,7 +1470,7 @@
   }
 
   .cv {
-    background-image: url(/public/img/background-shapes-cv.svg);
+    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
     margin: 0px;
@@ -1445,6 +1481,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .error {
+    background-image: url(/public/img/background-shapes.svg);
+    background-position: center;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1479,14 +1523,14 @@
   }
 
   .keyboard {
-    background-image: url(/public/img/background-shapes-cv.svg);
+    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
     margin: 0px;
   }
 
   .cv {
-    background-image: url(/public/img/background-shapes-cv.svg);
+    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
     margin: 0px;
@@ -1497,6 +1541,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .error {
+    background-image: url(/public/img/background-shapes.svg);
+    background-position: center;
+    padding: 0px;
+    margin: 0px;
   }
 }
 p, a, h1, h2, h3, h4, h5 {
