@@ -1431,6 +1431,10 @@
     animation: link-animation 150ms ease-in-out both;
   }
 }
+.enigme iframe {
+  border-radius: 25px;
+}
+
 /* Layout */
 /* Base */
 .hidden {
@@ -1484,6 +1488,17 @@
   }
 
   .error {
+    background-image: url(/public/img/background-shapes.svg);
+    background-position: center;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .enigme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     height: 100vh;
@@ -1544,6 +1559,13 @@
   }
 
   .error {
+    background-image: url(/public/img/background-shapes.svg);
+    background-position: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .enigme {
     background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
