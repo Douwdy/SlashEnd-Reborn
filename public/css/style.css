@@ -1431,11 +1431,14 @@
     animation: link-animation 150ms ease-in-out both;
   }
 }
-.enigme iframe {
-  border-radius: 25px;
+/* Layout */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-/* Layout */
 /* Base */
 .hidden {
   display: none !important;
@@ -1459,6 +1462,21 @@
     flex-direction: column;
   }
 
+  .cv {
+    background-image: url(/public/img/background-shapes.svg);
+    background-position: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .error {
+    background-image: url(/public/img/background-shapes.svg);
+    background-position: center;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+  }
+
   .body-keyboard {
     background-image: url(/public/img/background-shapes.svg);
     background-position: center;
@@ -1472,12 +1490,11 @@
     justify-content: center;
     flex-direction: column;
   }
-
-  .cv {
-    background-image: url(/public/img/background-shapes.svg);
-    background-position: center;
-    padding: 0px;
-    margin: 0px;
+}
+@media screen and (max-width: 768px) {
+  html {
+    background-color: #020065;
+    scroll-behavior: smooth;
   }
 
   header {
@@ -1485,31 +1502,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-
-  .error {
-    background-image: url(/public/img/background-shapes.svg);
-    background-position: center;
-    height: 100vh;
-    padding: 0px;
-    margin: 0px;
-  }
-
-  .enigme {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/public/img/background-shapes.svg);
-    background-position: center;
-    height: 100vh;
-    padding: 0px;
-    margin: 0px;
-  }
-}
-@media screen and (max-width: 768px) {
-  html {
-    background-color: #020065;
-    scroll-behavior: smooth;
   }
 
   .index {
@@ -1520,20 +1512,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-  }
-
-  .main-index {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .main-keyboard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
   }
 
@@ -1551,13 +1529,6 @@
     margin: 0px;
   }
 
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
   .error {
     background-image: url(/public/img/background-shapes.svg);
     background-position: center;
@@ -1565,11 +1536,18 @@
     margin: 0px;
   }
 
-  .enigme {
-    background-image: url(/public/img/background-shapes.svg);
-    background-position: center;
-    padding: 0px;
-    margin: 0px;
+  .main-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main-keyboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
 p, a, h1, h2, h3, h4, h5 {

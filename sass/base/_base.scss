@@ -19,6 +19,20 @@
         justify-content: center;
         flex-direction: column;
     }
+    .cv{
+        background-image: url(/public/img/background-shapes.svg);
+        background-position: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .error{
+        background-image: url(/public/img/background-shapes.svg);
+        background-position: center;
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+    }
+
     .body-keyboard{
         background-image: url(/public/img/background-shapes.svg);
         background-position: center;
@@ -32,33 +46,6 @@
         justify-content: center;
         flex-direction: column;
     }
-    .cv{
-        background-image: url(/public/img/background-shapes.svg);
-        background-position: center;
-        padding: 0px;
-        margin: 0px;
-    }
-    header{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .error{
-        background-image: url(/public/img/background-shapes.svg);
-        background-position: center;
-        height: 100vh;
-        padding: 0px;
-        margin: 0px;
-    }
-    .enigme{
-        @include flex-center;
-        background-image: url(/public/img/background-shapes.svg);
-        background-position: center;
-        height: 100vh;
-        padding: 0px;
-        margin: 0px;
-    }
 }
 
 // Mobile Version
@@ -67,6 +54,14 @@
         background-color: $color-background;
         scroll-behavior: smooth;
     }
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     .index{
         background-image: url(/public/img/background-shapes.svg);
         background-position: center;
@@ -75,15 +70,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
-    }
-    .main-index{
-        @include flex-center;
-        flex-direction: column;
-    }
-
-    .main-keyboard{
-        @include flex-center;
         flex-direction: column;
     }
 
@@ -100,22 +86,21 @@
         padding: 0px;
         margin: 0px;
     }
-    header{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+
     .error{
         background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
     }
-    .enigme{
-        background-image: url(/public/img/background-shapes.svg);
-        background-position: center;
-        padding: 0px;
-        margin: 0px;
+
+    .main-index{
+        @include flex-center;
+        flex-direction: column;
+    }
+
+    .main-keyboard{
+        @include flex-center;
+        flex-direction: column;
     }
 }
