@@ -1494,6 +1494,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100vh;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1520,13 +1521,6 @@ header {
     flex-direction: column;
   }
 
-  .keyboard {
-    background-image: url(/public/img/background-shapes.svg);
-    background-position: center;
-    padding: 0px;
-    margin: 0px;
-  }
-
   .cv {
     background-image: url(/public/img/background-shapes.svg);
     background-position: center;
@@ -1549,10 +1543,7 @@ header {
   }
 
   .main-keyboard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: none;
   }
 }
 p, a, h1, h2, h3, h4, h5 {

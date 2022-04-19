@@ -5,6 +5,8 @@ const keysound = () => {
 }
 
 document.addEventListener("keydown", (e) => {
+    console.log(e.keyCode);
+
     let k = e.keyCode || e.which;
     let key = document.querySelector(`.key_${k}`);
     keysound();

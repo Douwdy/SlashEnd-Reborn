@@ -45,6 +45,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        height: 100vh;
     }
 }
 
@@ -72,13 +73,6 @@
         justify-content: center;
         flex-direction: column;
     }
-
-    .keyboard{
-        background-image: url(/public/img/background-shapes.svg);
-        background-position: center;
-        padding: 0px;
-        margin: 0px;
-    }
     
     .cv{
         background-image: url(/public/img/background-shapes.svg);
@@ -100,7 +94,6 @@
     }
 
     .main-keyboard{
-        @include flex-center;
-        flex-direction: column;
+        display: none;
     }
 }
