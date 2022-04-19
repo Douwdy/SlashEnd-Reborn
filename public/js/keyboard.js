@@ -4,13 +4,15 @@ const keysound = () => {
     audio.play();
 }
 
-const key = document.querySelector(".key");
-console.log(key);
-
 document.addEventListener("keydown", (e) => {
+    let k = e.keyCode || e.which;
+    let key = document.querySelector(`.key_${k}`);
     keysound();
-    key.setAttribute('id', 'keypressed')
+    key.setAttribute('id', 'keypressed');
 });
+
 document.addEventListener("keyup", (e) => {
-    key.removeAttribute('id', 'keypressed')
+    let k = e.keyCode || e.which;
+    let key = document.querySelector(`.key_${k}`);
+    key.removeAttribute('id', 'keypressed');
 });
