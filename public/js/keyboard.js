@@ -1,17 +1,16 @@
-const Keyboard = {
-    elements: {
-        main: null,
-        keysContainer: null,
-        keys: []
-    },
+const keysound = () => {
+    const audio = new Audio();
+    audio.src = "./public/sounds/key.mp3";
+    audio.play();
+}
 
-    eventHandlers: {
-        onKeyDown: null,
-        onKeyUp: null
-    },
+const key = document.querySelector(".key");
+console.log(key);
 
-    proterties: {
-        value: "",
-        capsLock: false,
-    }
-};
+document.addEventListener("keydown", (e) => {
+    keysound();
+    key.setAttribute('id', 'keypressed')
+});
+document.addEventListener("keyup", (e) => {
+    key.removeAttribute('id', 'keypressed')
+});
