@@ -1,0 +1,99 @@
+.player{
+    @include glass-effect;
+    @include flex-center;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    &-cover{
+        height: 200px;
+        width: 200px;
+        background-image: url(/public/img/music/cover.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+        &:hover{
+            animation: link-animation 150ms ease-in-out both;
+        }
+    }
+    &-name{
+        text-align: center;
+        &-text{
+            color: white;
+            font-size: 1.5em;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        &-album{
+            color: lightblue;
+            font-size: 1em;
+            margin-top: 5px;
+        }
+    }
+    &-durationbar{
+        &-progress{
+            position: absolute;
+            height: 8px;
+            width: 80px;
+            background-color: gray;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        &-background{
+        height: 8px;
+        width: 250px;
+        background-color: white;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        }
+    }
+    &-btn{
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        margin-top: 10px;
+        &-prev{
+            @include flex-center;
+            color: midnightblue;
+            background-color: white;
+            border-radius: 15px;
+            height: 50px;
+            width: 50px;
+            font-size: 2em;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+            &:hover{
+                animation: link-animation 150ms ease-in-out both;
+            }
+        }
+        &-play{
+            @include flex-center;
+            color: midnightblue;
+            background-color: white;
+            border-radius: 15px;
+            height: 50px;
+            width: 50px;
+            font-size: 2em;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+            &:hover{
+                animation: link-animation 150ms ease-in-out both;
+            }
+        }
+        &-next{
+            @include flex-center;
+            color: midnightblue;
+            background-color: white;
+            border-radius: 15px;
+            height: 50px;
+            width: 50px;
+            font-size: 2em;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+            &:hover{
+                animation: link-animation 150ms ease-in-out both;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+}
