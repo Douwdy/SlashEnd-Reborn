@@ -1189,7 +1189,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
   background-color: #C7C6FF;
   height: 40px;
   width: 40px;
@@ -1204,7 +1203,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-space {
   width: 272px;
@@ -1215,7 +1213,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-lock {
   width: 66px;
@@ -1226,7 +1223,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-backspace {
   width: 85px;
@@ -1237,7 +1233,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-enter {
   width: 69px;
@@ -1248,7 +1243,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-enter2 {
   width: 59px;
@@ -1259,7 +1253,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-LShift {
   width: 122px;
@@ -1270,7 +1263,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-RShift {
   width: 46px;
@@ -1281,7 +1273,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-LCtrl {
   width: 49px;
@@ -1292,7 +1283,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-RCtrl {
   width: 58px;
@@ -1303,7 +1293,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-bottomgeneric {
   width: 49px;
@@ -1314,7 +1303,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-long {
   width: 40px;
@@ -1325,7 +1313,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-long-enter {
   width: 40px;
@@ -1337,7 +1324,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 .key-long-0 {
   width: 83px;
@@ -1348,7 +1334,6 @@
   justify-content: center;
   align-items: center;
   font-family: "Dosis", sans-serif;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3), -4px -4px 4px rgba(255, 255, 255, 0.3);
 }
 
 #keypressed {
@@ -1485,8 +1470,12 @@ header {
   .body-keyboard {
     background-image: url(/public/img/background-shapes.svg);
     background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     padding: 0px;
     margin: 0px;
+    height: 100vh;
   }
 
   .main-keyboard {
@@ -1494,7 +1483,6 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
   }
 }
 @media screen and (max-width: 768px) {

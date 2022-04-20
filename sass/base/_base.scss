@@ -36,8 +36,12 @@
     .body-keyboard{
         background-image: url(/public/img/background-shapes.svg);
         background-position: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
         padding: 0px;
         margin: 0px;
+        height: 100vh;
     }
     
     .main-keyboard{
@@ -45,7 +49,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        height: 100vh;
     }
 }
 
