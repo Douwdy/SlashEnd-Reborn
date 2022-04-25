@@ -69,7 +69,10 @@
 // Mobile Version
 @media screen and (max-width: 768px) {
     html{
+        
         background-color: $color-background;
+        background-image: url(/public/img/background.png);
+        background-repeat: repeat;
         scroll-behavior: smooth;
     }
 
@@ -81,7 +84,6 @@
     }
 
     .index{
-        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
@@ -92,21 +94,18 @@
     }
     
     .cv{
-        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
     }
 
     .error{
-        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
     }
 
     .music{
-        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;

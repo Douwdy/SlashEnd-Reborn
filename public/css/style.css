@@ -1611,6 +1611,8 @@ header {
 @media screen and (max-width: 768px) {
   html {
     background-color: #020065;
+    background-image: url(/public/img/background.png);
+    background-repeat: repeat;
     scroll-behavior: smooth;
   }
 
@@ -1622,7 +1624,6 @@ header {
   }
 
   .index {
-    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
     margin: 0px;
@@ -1633,21 +1634,18 @@ header {
   }
 
   .cv {
-    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
     margin: 0px;
   }
 
   .error {
-    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
     margin: 0px;
   }
 
   .music {
-    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
     margin: 0px;
