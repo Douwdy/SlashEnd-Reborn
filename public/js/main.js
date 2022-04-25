@@ -1,10 +1,14 @@
 const background = document.querySelector('html');
 
-background.addEventListener('mousemove', () => {
-    const x = event.clientX;
-    const y = event.clientY;
+background.addEventListener('mousemove', (e) => {
+    const x = e.pageX;
+    const y = e.pageY;
+ 
     const xPercent = x / window.innerWidth;
     const yPercent = y / window.innerHeight;
-    
-    background.style.backgroundPosition = `${xPercent * 3}% ${yPercent * 3}%`;
+
+    const xPercentRounded = xPercent.toFixed(1);
+    const yPercentRounded = yPercent.toFixed(1);
+
+    background.style.backgroundPosition = `${xPercentRounded}% ${yPercentRounded}%`;
 });
