@@ -7,10 +7,11 @@
 @media screen and (min-width: 768px) {
     html{
         background-color: $color-background;
+        background-image: url(/public/img/background.png);
+        background-repeat: repeat;
         scroll-behavior: smooth;
     }
     .index{
-        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
@@ -20,7 +21,6 @@
         flex-direction: column;
     }
     .cv{
-        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
@@ -31,7 +31,6 @@
         flex-direction: column;
     }
     .error{
-        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         height: 100vh;
         padding: 0px;
@@ -39,7 +38,6 @@
     }
 
     .music{
-        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         padding: 0px;
         margin: 0px;
@@ -51,7 +49,6 @@
     }
 
     .body-keyboard{
-        background-image: url(/public/img/background-shapes.svg);
         background-position: center;
         display: flex;
         justify-content: space-between;

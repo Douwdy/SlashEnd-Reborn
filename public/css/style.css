@@ -751,7 +751,6 @@
     -webkit-backdrop-filter: blur(8.1px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 306px;
@@ -1549,11 +1548,12 @@ header {
 @media screen and (min-width: 768px) {
   html {
     background-color: #020065;
+    background-image: url(/public/img/background.png);
+    background-repeat: repeat;
     scroll-behavior: smooth;
   }
 
   .index {
-    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
     margin: 0px;
@@ -1564,7 +1564,6 @@ header {
   }
 
   .cv {
-    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
     margin: 0px;
@@ -1575,7 +1574,6 @@ header {
   }
 
   .error {
-    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     height: 100vh;
     padding: 0px;
@@ -1583,7 +1581,6 @@ header {
   }
 
   .music {
-    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     padding: 0px;
     margin: 0px;
@@ -1595,7 +1592,6 @@ header {
   }
 
   .body-keyboard {
-    background-image: url(/public/img/background-shapes.svg);
     background-position: center;
     display: flex;
     justify-content: space-between;

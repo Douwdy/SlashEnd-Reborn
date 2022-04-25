@@ -21,7 +21,6 @@
             height: 255px;
             width: 269px;
             object-fit: cover;
-            
         }
         &-bottom{
             @include flex-center;
@@ -338,7 +337,6 @@
             height: 255px;
             width: 269px;
             object-fit: cover;
-            
         }
         &-bottom{
             @include flex-center;
@@ -424,7 +422,8 @@
 
     .presentation{
         @include glass-effect;
-        @include flex-center;
+        display: flex;
+        align-items: center;
         flex-direction: column;
         width: 306px;
         height: 458px;
