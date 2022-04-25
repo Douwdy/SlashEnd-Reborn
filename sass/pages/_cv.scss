@@ -1,17 +1,5 @@
 // Mobile Version
 @media screen and (max-width: 768px) {
-    .backarrow{
-        @include flex-center;
-        border-radius: 50%;
-        position: absolute;
-        margin-top: 10px;
-        margin-left: 10px;
-        height: 35px;
-        width: 35px;
-        background-color: white;
-        font-size: 1.4em;
-        color: $color-background;
-    }
     .topcard{
         margin-top: 50px;
         @include flex-center;
@@ -320,18 +308,6 @@
 
 // Desktop Version
 @media screen and (min-width: 768px) {
-    .backarrow{
-        @include flex-center;
-        position: absolute;
-        border-radius: 50px;
-        margin-top: 10px;
-        margin-left: 10px;
-        height: 35px;
-        width: 80px;
-        background-color: white;
-        font-size: 1.4em;
-        color: $color-background;
-    }
     .topcard{
         margin-top: 50px;
         @include flex-center;

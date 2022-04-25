@@ -11,6 +11,24 @@
         background-repeat: repeat;
         scroll-behavior: smooth;
     }
+
+    .backarrow{
+        @include flex-center;
+        position: absolute;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 35px;
+        width: 35px;
+        background-color: white;
+        font-size: 1.4em;
+        color: $color-background;
+        transition: width 0.2s ease-in-out;
+        &:hover{
+            width:(80px);
+        }
+    }
+
     .index{
         background-position: center;
         padding: 0px;
@@ -81,6 +99,19 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .backarrow{
+        @include flex-center;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 35px;
+        width: 35px;
+        background-color: white;
+        font-size: 1.4em;
+        color: $color-background;
     }
 
     .index{

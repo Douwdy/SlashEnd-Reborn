@@ -640,10 +640,14 @@
     margin-top: 10px;
     margin-left: 10px;
     height: 35px;
-    width: 80px;
+    width: 35px;
     background-color: white;
     font-size: 1.4em;
     color: #020065;
+    transition: width 0.2s ease-in-out;
+  }
+  .backarrow:hover {
+    width: 80px;
   }
 
   .topcard {
