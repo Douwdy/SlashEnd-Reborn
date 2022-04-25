@@ -111,7 +111,7 @@
     border-radius: 35px;
     height: 35px;
     width: 275px;
-    font-size: 1.35em;
+    font-size: 1.25em;
     color: black;
     background-color: white;
   }
@@ -343,6 +343,10 @@
   }
   .link-box:hover {
     animation: link-animation 150ms ease-in-out both;
+  }
+
+  .body-cv {
+    margin: 0;
   }
 
   .main-cv {
@@ -1565,8 +1569,8 @@ header {
 
   .cv {
     background-position: center;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
