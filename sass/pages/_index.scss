@@ -53,16 +53,16 @@
             padding: 10px;
             h1{
                 @include flex-center;
-                border-radius: 15px;
-                height: 30px;
-                width: 250px;
-                font-size: 1.2em;
+                border-radius: 35px;
+                height: 35px;
+                width: 275px;
+                font-size: 1.35em;
                 color: black;
                 background-color: white;
             }
             p{
                 color: white;
-                font-size: 1.4em;
+                font-size: 1.3em;
             }
         }
     }
@@ -87,21 +87,9 @@
             animation: btn-animation 150ms ease-in-out both;
         }
     }
-    .footer-fade{
-        height: 520px;
-        width: 100%;
-        background: linear-gradient(0deg, rgba(1,0,57,1) 0%, rgba(255,121,218,0) 100%);
-    }
-    footer{
-        height: 95px;
-        width: 100%;
-        @include flex-center;
-        line-height: 1px;
-        color: white;
-        background-color: $color-footer;
-    }
 }
 
+// Desktop Version
 @media screen and (min-width: 768px) {
     .header-index{
         margin-top: 20px;
@@ -156,10 +144,10 @@
             padding: 15px;
             h1{
                 @include flex-center;
-                border-radius: 15px;
-                height: 30px;
-                width: 250px;
-                font-size: 1.2em;
+                border-radius: 40px;
+                height: 40px;
+                width: 320px;
+                font-size: 1.5em;
                 color: black;
                 background-color: white;
             }

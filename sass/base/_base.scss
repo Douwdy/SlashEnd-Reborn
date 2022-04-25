@@ -24,6 +24,11 @@
         background-position: center;
         padding: 0px;
         margin: 0px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     .error{
         background-image: url(/public/img/background-shapes.svg);
@@ -118,9 +123,5 @@
     .main-index{
         @include flex-center;
         flex-direction: column;
-    }
-
-    .main-keyboard{
-        display: none;
     }
 }

@@ -108,16 +108,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
-    height: 30px;
-    width: 250px;
-    font-size: 1.2em;
+    border-radius: 35px;
+    height: 35px;
+    width: 275px;
+    font-size: 1.35em;
     color: black;
     background-color: white;
   }
   .welcome-text p {
     color: white;
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 
   .main-index {
@@ -144,23 +144,6 @@
   }
   .visit:hover {
     animation: btn-animation 150ms ease-in-out both;
-  }
-
-  .footer-fade {
-    height: 520px;
-    width: 100%;
-    background: linear-gradient(0deg, #010039 0%, rgba(255, 121, 218, 0) 100%);
-  }
-
-  footer {
-    height: 95px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 1px;
-    color: white;
-    background-color: #010039;
   }
 }
 @media screen and (min-width: 768px) {
@@ -240,10 +223,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
-    height: 30px;
-    width: 250px;
-    font-size: 1.2em;
+    border-radius: 40px;
+    height: 40px;
+    width: 320px;
+    font-size: 1.5em;
     color: black;
     background-color: white;
   }
@@ -326,7 +309,7 @@
     border-radius: 0px 0px 30px 30px;
     background-color: #5E26FF;
   }
-  .topcard-bottom h1 {
+  .topcard-bottom h3 {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
@@ -643,42 +626,17 @@
     border-radius: 16px;
   }
 }
-.download {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  height: 45px;
-  width: 250px;
-  border-radius: 57px;
-  font-size: 1.3em;
-  background-color: #5E26FF;
-}
-.download a {
-  color: white;
-  text-decoration: none;
-}
-.download:hover {
-  animation: btn-animation 150ms ease-in-out both;
-}
-
-.download-align {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 @media screen and (min-width: 768px) {
   .backarrow {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    border-radius: 50%;
+    border-radius: 50px;
     margin-top: 10px;
     margin-left: 10px;
     height: 35px;
-    width: 35px;
+    width: 80px;
     background-color: white;
     font-size: 1.4em;
     color: #020065;
@@ -706,7 +664,7 @@
     border-radius: 0px 0px 30px 30px;
     background-color: #5E26FF;
   }
-  .topcard-bottom h1 {
+  .topcard-bottom h3 {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
@@ -742,6 +700,10 @@
     animation: link-animation 150ms ease-in-out both;
   }
 
+  .body-cv {
+    margin: 0;
+  }
+
   .main-cv {
     margin-top: 40px;
     display: flex;
@@ -749,6 +711,7 @@
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 1050px;
   }
 
   .number {
@@ -1053,294 +1016,307 @@
   animation: btn-animation 150ms ease-in-out both;
 }
 
-.fa-circle-notch {
-  animation: spin 2s linear infinite both;
+.download-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.keyboard {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8.1px);
-  -webkit-backdrop-filter: blur(8.1px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  width: 1025px;
-  height: 320px;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.keyboard-align__1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.keyboard-align__2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-.keyboard-zone-1 {
-  margin: 15px;
-  width: 643px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-}
-.keyboard-zone-1__group {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 170px;
-}
-.keyboard-zone-2 {
-  width: 645px;
-  height: 215px;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  margin-left: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.keyboard-zone-3 {
-  font-size: 0.75em;
-  width: 130px;
-  height: 300px;
-  margin-left: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-}
-.keyboard-zone-3__1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 126px;
-  margin-top: 1px;
-}
-.keyboard-zone-3__2 {
-  display: flex;
-  align-items: center;
-  align-content: space-between;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 126px;
-  height: 83px;
-  margin-top: 24px;
-  margin-bottom: 68px;
-}
-.keyboard-zone-3__3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 126px;
-}
-.keyboard-zone-3__3__uparrow {
-  position: absolute;
-  margin-top: 217px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 126px;
-}
-.keyboard-zone-4 {
-  width: 170px;
-  height: 216px;
-  margin-top: 85px;
-  margin-left: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.keyboard-zone-4 .numpad-align__1 {
-  width: 126px;
-  height: 215px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.keyboard-zone-4 .numpad-align__2 {
-  width: 40px;
-  height: 215px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+@media screen and (min-width: 768px) {
+  .keyboard {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 1025px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .keyboard-align__1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .keyboard-align__2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .keyboard-zone-1 {
+    margin: 15px;
+    width: 643px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .keyboard-zone-1__group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 170px;
+  }
+  .keyboard-zone-2 {
+    width: 645px;
+    height: 215px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .keyboard-zone-3 {
+    font-size: 0.75em;
+    width: 130px;
+    height: 300px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .keyboard-zone-3__1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 126px;
+    margin-top: 1px;
+  }
+  .keyboard-zone-3__2 {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 126px;
+    height: 83px;
+    margin-top: 24px;
+    margin-bottom: 68px;
+  }
+  .keyboard-zone-3__3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 126px;
+  }
+  .keyboard-zone-3__3__uparrow {
+    position: absolute;
+    margin-top: 217px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+  }
+  .keyboard-zone-4 {
+    width: 170px;
+    height: 216px;
+    margin-top: 85px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .keyboard-zone-4 .numpad-align__1 {
+    width: 126px;
+    height: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .keyboard-zone-4 .numpad-align__2 {
+    width: 40px;
+    height: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-.key {
-  font-family: "Dosis", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #C7C6FF;
-  height: 40px;
-  width: 40px;
-  border-radius: 5px;
-}
-.key-tab {
-  width: 56px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-space {
-  width: 272px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-lock {
-  width: 66px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-backspace {
-  width: 85px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-enter {
-  width: 69px;
-  height: 40px;
-  border-radius: 5px 5px 0px 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-enter2 {
-  width: 59px;
-  height: 40px;
-  border-radius: 0 0 5px 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-LShift {
-  width: 122px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-RShift {
-  width: 46px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-LCtrl {
-  width: 49px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-RCtrl {
-  width: 58px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-bottomgeneric {
-  width: 49px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-long {
-  width: 40px;
-  height: 83px;
-  border-radius: 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-long-enter {
-  width: 40px;
-  height: 83px;
-  font-size: 0.8em;
-  border-radius: 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
-.key-long-0 {
-  width: 83px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #C7C6FF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Dosis", sans-serif;
-}
+  .key {
+    font-family: "Dosis", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C7C6FF;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+  }
+  .key-tab {
+    width: 56px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-space {
+    width: 272px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-lock {
+    width: 66px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-backspace {
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-enter {
+    width: 69px;
+    height: 40px;
+    border-radius: 5px 5px 0px 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-enter2 {
+    width: 59px;
+    height: 40px;
+    border-radius: 0 0 5px 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-LShift {
+    width: 122px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-RShift {
+    width: 46px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-LCtrl {
+    width: 49px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-RCtrl {
+    width: 58px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-bottomgeneric {
+    width: 49px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-long {
+    width: 40px;
+    height: 83px;
+    border-radius: 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-long-enter {
+    width: 40px;
+    height: 83px;
+    font-size: 0.8em;
+    border-radius: 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
+  .key-long-0 {
+    width: 83px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #C7C6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+  }
 
-#keypressed {
-  background-color: #1e1c97;
-  color: white;
+  #keypressed {
+    background-color: #1e1c97;
+    color: white;
+  }
 }
+@media screen and (max-width: 768px) {
+  .main-keyboard {
+    display: none;
+  }
 
+  .body-keyboard {
+    height: 100vh;
+    margin: 0;
+  }
+}
 @media screen and (min-width: 768px) {
   .error-container {
     display: flex;
@@ -1530,6 +1506,33 @@
 }
 
 /* Layout */
+@media screen and (max-width: 768px) {
+  .footer-fade {
+    height: 85vh;
+    width: 100%;
+    background: linear-gradient(0deg, #010039 0%, rgba(255, 121, 218, 0) 100%);
+  }
+
+  footer {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1px;
+    color: white;
+    background-color: #010039;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-fade {
+    height: 20vh;
+  }
+
+  footer {
+    display: none;
+  }
+}
 header {
   display: flex;
   align-items: center;
@@ -1565,6 +1568,10 @@ header {
     background-position: center;
     padding: 0px;
     margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .error {
@@ -1661,13 +1668,17 @@ header {
     align-items: center;
     flex-direction: column;
   }
-
-  .main-keyboard {
-    display: none;
-  }
 }
-p, a, h1, h2, h3, h4, h5 {
+@font-face {
+  font-family: "GT-Super";
+  src: url(/public/fonts/GT-Super-Display-Super.woff2);
+}
+p, a, h3, h4, h5 {
   font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+  font-family: "GT-Super", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

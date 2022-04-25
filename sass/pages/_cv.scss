@@ -29,7 +29,7 @@
             height: 70px;
             border-radius: 0px 0px 30px 30px;
             background-color: $color-primary;
-            h1{
+            h3{
                 padding-left: 15px;
                 padding-right: 15px;
                 padding-top: 5px;
@@ -315,38 +315,16 @@
     }
 }
 
-.download{
-    @include flex-center;
-    margin-top: 50px;
-    height: 45px;
-    width: 250px;
-
-    border-radius: 57px;
-    font-size: 1.3em;
-    background-color: $color-primary;
-    a{
-        color: white;
-        text-decoration: none;
-    }
-    &:hover{
-        animation: btn-animation 150ms ease-in-out both;
-    }
-}
-
-.download-align{
-    @include flex-center;
-}
-
 // Desktop Version
 @media screen and (min-width: 768px) {
     .backarrow{
         @include flex-center;
         position: absolute;
-        border-radius: 50%;
+        border-radius: 50px;
         margin-top: 10px;
         margin-left: 10px;
         height: 35px;
-        width: 35px;
+        width: 80px;
         background-color: white;
         font-size: 1.4em;
         color: $color-background;
@@ -368,7 +346,7 @@
             height: 70px;
             border-radius: 0px 0px 30px 30px;
             background-color: $color-primary;
-            h1{
+            h3{
                 padding-left: 15px;
                 padding-right: 15px;
                 padding-top: 5px;
@@ -405,6 +383,10 @@
         
     }
 
+    .body-cv{
+        margin: 0;
+    }
+
     .main-cv{
         margin-top: 40px;
         display: flex;
@@ -412,6 +394,7 @@
         justify-content: space-around;
         flex-direction: row;
         flex-wrap: wrap;
+        max-width: 1050px;
     }
 
     .number{
@@ -663,6 +646,7 @@
             }
         }
     }
+
 .download{
     @include flex-center;
     margin-top: 50px;
@@ -681,6 +665,6 @@
     }
 }
 
-.fa-circle-notch{
-    animation: spin 2s linear infinite both;
+.download-align{
+    @include flex-center;
 }

@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
-p, a, h1, h2, h3, h4, h5{
+
+ @font-face {
+     font-family: 'GT-Super';
+     src: url(/public/fonts/GT-Super-Display-Super.woff2);
+ }
+
+p, a, h3, h4, h5{
     font-family: 'Roboto', sans-serif;
+}
+h1, h2{
+    font-family: 'GT-Super', sans-serif;
 }

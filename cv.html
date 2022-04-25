@@ -9,297 +9,299 @@
         <script src="https://kit.fontawesome.com/0aa7525883.js" crossorigin="anonymous"></script>
         <title>SlashEnd - Site Personnel</title>
     </head>
-<body class="cv">
+<body class="body-cv">
     <a href="index.html">
         <div class="backarrow">
             <i class="fa-solid fa-arrow-left"></i>
         </div>
     </a>
-    <header>
-        <div class="topcard">
-            <img src="/public/img/pfp.jpg" alt="Photo de Guillaume">
-            <div class="topcard-bottom">
-                <h1>Guillaume Lamarque</h1>
+    <section class="cv">
+        <header>
+            <div class="topcard">
+                <img src="/public/img/pfp.jpg" alt="Photo de Guillaume">
+                <div class="topcard-bottom">
+                    <h3>Guillaume Lamarque</h3>
+                </div>
+            </div>
+            <nav class="link">
+                <a href="https://github.com/Douwdy">
+                    <div class="link-box" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/guillaume-lamarque-00a888231/">
+                    <div class="link-box" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </a>
+                            
+                <a href="#portfolio">
+                    <div class="link-box" title="Portfolio">
+                        <i class="fa-solid fa-window-restore"></i>
+                    </div>
+                </a>
+                            
+                <a href="mailto:guillaumelamarque7@gmail.com" title="Envoyer un mail à guillaumelamarque7@gmail.com">
+                    <div class="link-box">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                </a>
+            </nav>
+        </header>
+        <main class="main-cv">
+            <section class="presentation">
+                <div class="card-header">
+                    <p class="number">1</p>
+                    <h2>Présentation</h2>
+                </div>
+                <p class="presentation-text">Je suis actuellement en
+                    formation de développement
+                    web chez OpenClassrooms,
+                    cependant je code depuis l'âge
+                    de 15 ans, j'ai débuté avec le
+                    Java sur Eclipse, puis je me suis
+                    intéressé au web par le biais
+                    d'un ami, et grâce à ça je me
+                    suis initié à l'HTML et au CSS,
+                    c'est pour cela que je me suis
+                    lancé dans cette formation, pour
+                    me professionnaliser dans un
+                    domaine qui me passionne
+                    depuis mon adolescence !</p>
+            </section>
+            <section class="diplomes">
+                <div class="card-header">
+                    <p class="number">2</p>
+                    <h2>Diplômes</h2>
+                </div>
+                <div class="grade">
+                    <div class="grade-icon">
+                        <i class="fa-solid fa-spinner"></i>
+                    </div>
+                    <div class="grade-text">
+                        <h3>Formation Développeur Web</h3>
+                        <p>OpenClassrooms<br>
+                            À distrance<br>
+                            2022</p>
+                    </div>
+                </div>
+                <div class="grade">
+                    <div class="grade-icon">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="grade-text">
+                        <h3>BAC Électrotechnique</h3>
+                        <p>Lycée Victor Duruy<br>
+                            Bagnères de Bigorre<br>
+                            2016 - 2018</p>
+                    </div>
+                </div>
+                <div class="grade">
+                    <div class="grade-icon">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="grade-text">
+                        <h3>BEP Électrotechnique</h3>
+                        <p>Lycée Victor Duruy<br>
+                            Bagnères de Bigorre<br>
+                            2017</p>
+                    </div>
+                </div>
+            </section>
+            <section class="language">
+                <div class="card-header">
+                    <p class="number">3</p>
+                    <h2>Langues</h2>
+                </div>
+                <div class="lang-align">
+                    <div class="language-box">
+                        <div class="language-box__icon">🥐</div>
+                        <div class="language-text">
+                            <h3>Français</h3>
+                            <p>Langue natale</p>
+                        </div>
+                    </div>
+                    <div class="language-box">
+                        <div class="language-box__icon">🍔</div>
+                        <div class="language-text">
+                            <h3>Anglais</h3>
+                            <p>Niveau C1</p>
+                        </div>
+                    </div>
+                    <div class="language-box">
+                        <div class="language-box__icon">🌮</div>
+                        <div class="language-text">
+                            <h3>Espagnol</h3>
+                            <p>Niveau A2</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="hard-skills">
+                <div class="card-header">
+                    <p class="number">4</p>
+                    <h2>Hard Skills</h2>
+                </div>
+                <h3>Langages</h3>
+                <div class="skill-box">
+                    <div class="skill-box__icon" style="color: orange;">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <h4>HTML</h4>
+                    <div class="skill-box-bar">
+                        <div class="skill-box-bar__progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box__icon" style="color: royalblue;">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <h4>CSS</h4>
+                    <div class="skill-box-bar">
+                        <div class="skill-box-bar__progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box__icon" style="color: red;">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+                    <h4>Java</h4>
+                    <div class="skill-box-bar">
+                        <div class="skill-box-bar__progress" style="width: 25%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-box__icon" style="color: #ffee00;">
+                        <i class="fa-brands fab fa-js-square"></i>
+                    </div>
+                    <h4>JavaScript</h4>
+                    <div class="skill-box-bar">
+                        <div class="skill-box-bar__progress" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <h3>Frameworks</h3>
+                <div class="skill-box">
+                    <div class="skill-box__icon" style="color: pink;">
+                        <i class="fa-brands fab fa-sass"></i>
+                    </div>
+                    <h4>Sass</h4>
+                    <div class="skill-box-bar">
+                        <div class="skill-box-bar__progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="soft-skills">
+                <div class="card-header">
+                    <p class="number">5</p>
+                    <h2>Soft Skills</h2>
+                </div>
+                <div class="skill-box">
+                    <h4>Autonomie</h4>
+                    <div class="skill-box-bar">
+                        <div class="skill-box-bar__progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h4>Travail en équipe</h4>
+                    <div class="skill-box-bar">
+                        <div class="skill-box-bar__progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h4>Créativité</h4>
+                    <div class="skill-box-bar">
+                        <div class="skill-box-bar__progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h4>Esprit d'entreprise</h4>
+                    <div class="skill-box-bar">
+                        <div class="skill-box-bar__progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <h4>Esprit critique</h4>
+                    <div class="skill-box-bar">
+                        <div class="skill-box-bar__progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio" id="portfolio">
+                <div class="card-header">
+                    <p class="number">6</p>
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="project-box">
+                    <h4>Booki</h4>
+                    <a href="https://douwdy.github.io/Projet-2/" class="project-box-btn">
+                        <div class="project-box-btn__layout">
+                            Voir
+                        </div>
+                    </a>
+                </div>
+                <div class="project-box">
+                    <h4>Ohmyfood</h4>
+                    <a href="https://douwdy.github.io/Projet-3/" class="project-box-btn">
+                        <div class="project-box-btn__layout">
+                            Voir
+                        </div>
+                    </a>
+                </div>
+                <div class="project-box hidden">
+                    <h4>la Panthère</h4>
+                    <a href="https://douwdy.github.io/Projet-4/" class="project-box-btn">
+                        <div class="project-box-btn__layout">
+                            Voir
+                        </div>
+                    </a>
+                </div>
+                <div class="project-box hidden">
+                    <h4>Kanap</h4>
+                    <a href="https://douwdy.github.io/Projet-5/" class="project-box-btn">
+                        <div class="project-box-btn__layout">
+                            WIP 🏗️
+                        </div>
+                    </a>
+                </div>
+                <div class="project-box hidden">
+                    <h4>Piiquante</h4>
+                    <a href="https://douwdy.github.io/Projet-6/" class="project-box-btn">
+                        <div class="project-box-btn__layout">
+                            WIP 🏗️
+                        </div>
+                    </a>
+                </div>
+                <div class="project-box hidden">
+                    <h4>Groupomania</h4>
+                    <a href="https://douwdy.github.io/Projet-7/" class="project-box-btn">
+                        <div class="project-box-btn__layout">
+                            WIP 🏗️
+                        </div>
+                    </a>
+                </div>
+                <div class="project-box">
+                    <h4>Clavier web</h4>
+                    <a href="/keyboard.html" class="project-box-btn">
+                        <div class="project-box-btn__layout">
+                            Voir
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <div class="download-align">
+            <div class="download">
+                <a href="/public/download/CV_LamarqueGuillaume.pdf" download>
+                    Télécharger le CV
+                    <i class="fa-solid fa-download"></i>
+                </a>
             </div>
         </div>
-        <nav class="link">
-            <a href="https://github.com/Douwdy">
-                <div class="link-box" title="GitHub">
-                    <i class="fa-brands fa-github"></i>
-                </div>
-            </a>
-            
-            <a href="https://www.linkedin.com/in/guillaume-lamarque-00a888231/">
-                <div class="link-box" title="LinkedIn">
-                    <i class="fa-brands fa-linkedin"></i>
-                </div>
-            </a>
-                        
-            <a href="#portfolio">
-                <div class="link-box" title="Portfolio">
-                    <i class="fa-solid fa-window-restore"></i>
-                </div>
-            </a>
-                        
-            <a href="mailto:guillaumelamarque7@gmail.com" title="Envoyer un mail à guillaumelamarque7@gmail.com">
-                <div class="link-box">
-                    <i class="fa-solid fa-envelope"></i>
-                </div>
-            </a>
-        </nav>
-    </header>
-    <main class="main-cv">
-        <section class="presentation">
-            <div class="card-header">
-                <p class="number">1</p>
-                <h2>Présentation</h2>
-            </div>
-            <p class="presentation-text">Je suis actuellement en
-                formation de développement
-                web chez OpenClassrooms,
-                cependant je code depuis l'âge
-                de 15 ans, j'ai débuté avec le
-                Java sur Eclipse, puis je me suis
-                intéressé au web par le biais
-                d'un ami, et grâce à ça je me
-                suis initié à l'HTML et au CSS,
-                c'est pour cela que je me suis
-                lancé dans cette formation, pour
-                me professionnaliser dans un
-                domaine qui me passionne
-                depuis mon adolescence !</p>
-        </section>
-        <section class="diplomes">
-            <div class="card-header">
-                <p class="number">2</p>
-                <h2>Diplômes</h2>
-            </div>
-            <div class="grade">
-                <div class="grade-icon">
-                    <i class="fas fa-circle-notch"></i>
-                </div>
-                <div class="grade-text">
-                    <h3>Formation Développeur Web</h3>
-                    <p>OpenClassrooms<br>
-                        À distrance<br>
-                        2022</p>
-                </div>
-            </div>
-            <div class="grade">
-                <div class="grade-icon">
-                    <i class="fa-solid fa-check"></i>
-                </div>
-                <div class="grade-text">
-                    <h3>BAC Électrotechnique</h3>
-                    <p>Lycée Victor Duruy<br>
-                        Bagnères de Bigorre<br>
-                        2016 - 2018</p>
-                </div>
-            </div>
-            <div class="grade">
-                <div class="grade-icon">
-                    <i class="fa-solid fa-check"></i>
-                </div>
-                <div class="grade-text">
-                    <h3>BEP Électrotechnique</h3>
-                    <p>Lycée Victor Duruy<br>
-                        Bagnères de Bigorre<br>
-                        2017</p>
-                </div>
-            </div>
-        </section>
-        <section class="language">
-            <div class="card-header">
-                <p class="number">3</p>
-                <h2>Langues</h2>
-            </div>
-            <div class="lang-align">
-                <div class="language-box">
-                    <div class="language-box__icon">🥐</div>
-                    <div class="language-text">
-                        <h3>Français</h3>
-                        <p>Langue natale</p>
-                    </div>
-                </div>
-                <div class="language-box">
-                    <div class="language-box__icon">🍔</div>
-                    <div class="language-text">
-                        <h3>Anglais</h3>
-                        <p>Niveau C1</p>
-                    </div>
-                </div>
-                <div class="language-box">
-                    <div class="language-box__icon">🌮</div>
-                    <div class="language-text">
-                        <h3>Espagnol</h3>
-                        <p>Niveau A2</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="hard-skills">
-            <div class="card-header">
-                <p class="number">4</p>
-                <h2>Hard Skills</h2>
-            </div>
-            <h3>Langages</h3>
-            <div class="skill-box">
-                <div class="skill-box__icon" style="color: orange;">
-                    <i class="fa-brands fa-html5"></i>
-                </div>
-                <h4>HTML</h4>
-                <div class="skill-box-bar">
-                    <div class="skill-box-bar__progress" style="width: 90%;"></div>
-                </div>
-            </div>
-            <div class="skill-box">
-                <div class="skill-box__icon" style="color: royalblue;">
-                    <i class="fa-brands fa-css3-alt"></i>
-                </div>
-                <h4>CSS</h4>
-                <div class="skill-box-bar">
-                    <div class="skill-box-bar__progress" style="width: 80%;"></div>
-                </div>
-            </div>
-            <div class="skill-box">
-                <div class="skill-box__icon" style="color: red;">
-                    <i class="fa-brands fa-java"></i>
-                </div>
-                <h4>Java</h4>
-                <div class="skill-box-bar">
-                    <div class="skill-box-bar__progress" style="width: 20%;"></div>
-                </div>
-            </div>
-            <div class="skill-box">
-                <div class="skill-box__icon" style="color: #ffee00;">
-                    <i class="fa-brands fab fa-js-square"></i>
-                </div>
-                <h4>JavaScript</h4>
-                <div class="skill-box-bar">
-                    <div class="skill-box-bar__progress" style="width: 40%;"></div>
-                </div>
-            </div>
-            <h3>Frameworks</h3>
-            <div class="skill-box">
-                <div class="skill-box__icon" style="color: pink;">
-                    <i class="fa-brands fab fa-sass"></i>
-                </div>
-                <h4>Sass</h4>
-                <div class="skill-box-bar">
-                    <div class="skill-box-bar__progress" style="width: 80%;"></div>
-                </div>
-            </div>
-        </section>
-        <section class="soft-skills">
-            <div class="card-header">
-                <p class="number">5</p>
-                <h2>Soft Skills</h2>
-            </div>
-            <div class="skill-box">
-                <h4>Autonomie</h4>
-                <div class="skill-box-bar">
-                    <div class="skill-box-bar__progress" style="width: 90%;"></div>
-                </div>
-            </div>
-            <div class="skill-box">
-                <h4>Travail en équipe</h4>
-                <div class="skill-box-bar">
-                    <div class="skill-box-bar__progress" style="width: 75%;"></div>
-                </div>
-            </div>
-            <div class="skill-box">
-                <h4>Créativité</h4>
-                <div class="skill-box-bar">
-                    <div class="skill-box-bar__progress" style="width: 90%;"></div>
-                </div>
-            </div>
-            <div class="skill-box">
-                <h4>Esprit d'entreprise</h4>
-                <div class="skill-box-bar">
-                    <div class="skill-box-bar__progress" style="width: 80%;"></div>
-                </div>
-            </div>
-            <div class="skill-box">
-                <h4>Esprit critique</h4>
-                <div class="skill-box-bar">
-                    <div class="skill-box-bar__progress" style="width: 90%;"></div>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio" id="portfolio">
-            <div class="card-header">
-                <p class="number">6</p>
-                <h2>Portfolio</h2>
-            </div>
-            <div class="project-box">
-                <h4>Booki</h4>
-                <a href="https://douwdy.github.io/Projet-2/" class="project-box-btn">
-                    <div class="project-box-btn__layout">
-                        Voir
-                    </div>
-                </a>
-            </div>
-            <div class="project-box">
-                <h4>Ohmyfood</h4>
-                <a href="https://douwdy.github.io/Projet-3/" class="project-box-btn">
-                    <div class="project-box-btn__layout">
-                        Voir
-                    </div>
-                </a>
-            </div>
-            <div class="project-box hidden">
-                <h4>la Panthère</h4>
-                <a href="https://douwdy.github.io/Projet-4/" class="project-box-btn">
-                    <div class="project-box-btn__layout">
-                        Voir
-                    </div>
-                </a>
-            </div>
-            <div class="project-box hidden">
-                <h4>Kanap</h4>
-                <a href="https://douwdy.github.io/Projet-5/" class="project-box-btn">
-                    <div class="project-box-btn__layout">
-                        WIP 🏗️
-                    </div>
-                </a>
-            </div>
-            <div class="project-box hidden">
-                <h4>Piiquante</h4>
-                <a href="https://douwdy.github.io/Projet-6/" class="project-box-btn">
-                    <div class="project-box-btn__layout">
-                        WIP 🏗️
-                    </div>
-                </a>
-            </div>
-            <div class="project-box hidden">
-                <h4>Groupomania</h4>
-                <a href="https://douwdy.github.io/Projet-7/" class="project-box-btn">
-                    <div class="project-box-btn__layout">
-                        WIP 🏗️
-                    </div>
-                </a>
-            </div>
-            <div class="project-box">
-                <h4>Clavier web</h4>
-                <a href="/keyboard.html" class="project-box-btn">
-                    <div class="project-box-btn__layout">
-                        Voir
-                    </div>
-                </a>
-            </div>
-        </section>
-    </main>
-    <div class="download-align">
-        <div class="download">
-            <a href="/public/download/CV_LamarqueGuillaume.pdf" download>
-                Télécharger le CV
-                <i class="fa-solid fa-download"></i>
-            </a>
-        </div>
-    </div>
-    <div class="footer-fade"></div>
-    <footer>
-        <h2>Il n'y a plus rien a voir ici 👀</h2>
-    </footer>
+        <div class="footer-fade"></div>
+        <footer>
+            <h2>Il n'y a plus rien a voir ici 👀</h2>
+        </footer>
+    </section>
 </body>
 </html>

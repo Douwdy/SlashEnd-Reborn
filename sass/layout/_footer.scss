@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+    .footer-fade{
+        height: 85vh;
+        width: 100%;
+        background: linear-gradient(0deg, rgba(1,0,57,1) 0%, rgba(255,121,218,0) 100%);
+    }
+    footer{
+        height: 15vh;
+        width: 100%;
+        @include flex-center;
+        line-height: 1px;
+        color: white;
+        background-color: $color-footer;
+    }
+}
+@media screen and (min-width: 768px) {
+    .footer-fade{
+        height: 20vh;
+    }
+    footer{
+        display: none;
+    }
+}
