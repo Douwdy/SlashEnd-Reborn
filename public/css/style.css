@@ -272,21 +272,6 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .backarrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 10px;
-    height: 35px;
-    width: 35px;
-    background-color: white;
-    font-size: 1.4em;
-    color: #020065;
-  }
-
   .topcard {
     margin-top: 50px;
     display: flex;
@@ -631,25 +616,6 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .backarrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    border-radius: 50px;
-    margin-top: 10px;
-    margin-left: 10px;
-    height: 35px;
-    width: 35px;
-    background-color: white;
-    font-size: 1.4em;
-    color: #020065;
-    transition: width 0.2s ease-in-out;
-  }
-  .backarrow:hover {
-    width: 80px;
-  }
-
   .topcard {
     margin-top: 50px;
     display: flex;
@@ -1561,6 +1527,25 @@ header {
     scroll-behavior: smooth;
   }
 
+  .backarrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    font-size: 1.4em;
+    color: #020065;
+    transition: width 0.2s ease-in-out;
+  }
+  .backarrow:hover {
+    width: 80px;
+  }
+
   .index {
     background-position: center;
     padding: 0px;
@@ -1629,6 +1614,21 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .backarrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    font-size: 1.4em;
+    color: #020065;
   }
 
   .index {
