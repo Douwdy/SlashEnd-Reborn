@@ -26,8 +26,14 @@
   0% {
     transform: rotate(0deg);
   }
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 }
 /* Pages */
@@ -172,6 +178,7 @@
     background-color: white;
   }
   .header-index .logo-index img {
+    animation: spin ease-in-out 8s infinite;
     height: 127px;
     width: 117px;
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(-2px -2px 2px white);
