@@ -2321,7 +2321,7 @@ header {
 @media screen and (min-width: 768px) {
   html {
     background-color: #020065;
-    background-image: url(/public/img/background.png);
+    background-image: url(/public/img/background.webp);
     background-repeat: repeat;
     scroll-behavior: smooth;
   }
@@ -2454,7 +2454,7 @@ header {
 @media screen and (max-width: 768px) {
   html {
     background-color: #020065;
-    background-image: url(/public/img/background.png);
+    background-image: url(/public/img/background.webp);
     background-repeat: repeat;
     scroll-behavior: smooth;
   }

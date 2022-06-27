@@ -6,7 +6,7 @@
   "scripts": {
     "sass": "sass ./sass/main.scss:./public/css/style.css -w --style compressed",
     "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Douwdy/SlashEnd-Reborn.git"
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Douwdy/SlashEnd-Reborn/issues"
   },
-  "homepage": "https://github.com/Douwdy/SlashEnd-Reborn#readme"
+  "homepage": "https://github.com/Douwdy/SlashEnd-Reborn#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
 }
