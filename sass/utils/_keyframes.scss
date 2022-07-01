@@ -8,15 +8,21 @@
         box-shadow:  4px 4px 4px rgba($color: black, $alpha: 0.3)
     }
 }
-@keyframes link-animation {
+@keyframes pressed {
     0% {
-        transform: translateX(0px);
         transform: translateY(0px);
     }
     100% {
-        transform: translateX(-5px);
-        transform: translateY(-5px);
-        box-shadow: 4px 4px 4px rgba($color: black, $alpha: 0.3)
+        transform: translateY(5px);
+    }
+}
+
+@keyframes pressed-reverse {
+    0% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0px);
     }
 }
 

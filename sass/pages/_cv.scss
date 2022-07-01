@@ -28,27 +28,41 @@
             }
         }
     }
-    .link{
+    .btn{
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        height: 54px;
-        width: 297px;
-        a{
-            text-decoration: none;
-            margin-top: 60px;
+        justify-content: space-around;
+        font-family: 'Dosis', sans-serif;
+        position: absolute;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.8em;
+        border-radius: 10px;
+        height: 50px;
+        width: 50px;
+        background: $color-btn;
+        animation: pressed-reverse 0.5s both ease;
+        transition: 0.5s ease;
+        &:hover{
+            animation: pressed 0.5s both ease;
+            transition: 0.5s ease;
+            box-shadow: inset 0px -5px 5px 0px rgba($color: black, $alpha: 0.2);
         }
-        &-box{
-            @include flex-center;
-            border-radius: 16px;
-            font-size: 2.2em;
-            color: $color-primary;
-            height: 54px;
-            width: 54px;
-            background-color: white;
-            &:hover{
-                animation: link-animation 150ms ease-in-out both;
-            }
+        &-shadow{
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+            padding-top: 5px;
+            background: $color-btn-shadow;
+        }
+        &-link{
+            margin-top: 30px;
+            height: 50px;
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
         }
     }
 
@@ -336,29 +350,42 @@
             }
         }
     }
-    .link{
+    .btn{
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        height: 54px;
-        width: 297px;
-        a{
-            text-decoration: none;
-            margin-top: 60px;
+        justify-content: space-around;
+        font-family: 'Dosis', sans-serif;
+        position: absolute;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.8em;
+        border-radius: 10px;
+        height: 50px;
+        width: 80px;
+        background: $color-btn;
+        animation: pressed-reverse 0.5s both ease;
+        transition: 0.5s ease;
+        &:hover{
+            animation: pressed 0.5s both ease;
+            transition: 0.5s ease;
+            box-shadow: inset 0px -5px 5px 0px rgba($color: black, $alpha: 0.2);
         }
-        &-box{
-            @include flex-center;
-            border-radius: 16px;
-            font-size: 2.2em;
-            color: $color-primary;
-            height: 54px;
-            width: 54px;
-            background-color: white;
-            &:hover{
-                animation: link-animation 150ms ease-in-out both;
-            }
+        &-shadow{
+            height: 50px;
+            width: 80px;
+            border-radius: 10px;
+            padding-top: 5px;
+            background: $color-btn-shadow;
         }
-        
+        &-link{
+            margin-top: 30px;
+            height: 50px;
+            width: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+        }
     }
 
     .body-cv{
