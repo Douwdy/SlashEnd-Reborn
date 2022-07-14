@@ -127,8 +127,7 @@
             color: white;
         }
         .skill-box{
-            display: flex;
-            align-items: center;
+            @include flex-center;
 
             background-color: white;
             margin-top: 5px;
@@ -140,20 +139,6 @@
                 padding-right: 5px;
                 padding-left: 15px;
             }
-            &-bar{
-                position: absolute;
-                background-color: $color-skill;
-                height: 16px;
-                width: 100px;
-                border-radius: 16px;
-                margin-left: 145px;
-                &__progress{
-                    background-color: $color-primary;
-                    height: 16px;
-                    border-radius: 16px;
-                    width: 80%;
-                }
-            }
         }
     }
     .soft-skills{
@@ -162,27 +147,13 @@
             font-size: 0.90em;
         }
         .skill-box{
-            display: flex;
-            align-items: center;
+            @include flex-center;
 
             background-color: white;
             margin-top: 23px;
             border-radius: 35px;
             height: 35px;
             width: 253px;
-            &-bar{
-                position: absolute;
-                background-color: $color-skill;
-                height: 16px;
-                width: 100px;
-                border-radius: 16px;
-                margin-left: 145px;
-                &__progress{
-                    background-color: $color-primary;
-                    height: 16px;
-                    border-radius: 16px;
-                }
-            }
         }
     }
     .portfolio{

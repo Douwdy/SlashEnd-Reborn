@@ -651,6 +651,7 @@ h1, h2 {
   }
   .hard-skills .skill-box {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: white;
     margin-top: 5px;
@@ -663,45 +664,19 @@ h1, h2 {
     padding-right: 5px;
     padding-left: 15px;
   }
-  .hard-skills .skill-box-bar {
-    position: absolute;
-    background-color: #c9c9c9;
-    height: 16px;
-    width: 100px;
-    border-radius: 16px;
-    margin-left: 145px;
-  }
-  .hard-skills .skill-box-bar__progress {
-    background-color: #5E26FF;
-    height: 16px;
-    border-radius: 16px;
-    width: 80%;
-  }
   .soft-skills h4 {
     margin-left: 13px;
     font-size: 0.9em;
   }
   .soft-skills .skill-box {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: white;
     margin-top: 23px;
     border-radius: 35px;
     height: 35px;
     width: 253px;
-  }
-  .soft-skills .skill-box-bar {
-    position: absolute;
-    background-color: #c9c9c9;
-    height: 16px;
-    width: 100px;
-    border-radius: 16px;
-    margin-left: 145px;
-  }
-  .soft-skills .skill-box-bar__progress {
-    background-color: #5E26FF;
-    height: 16px;
-    border-radius: 16px;
   }
   .portfolio h4 {
     margin-left: 13px;
