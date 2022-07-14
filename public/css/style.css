@@ -260,7 +260,6 @@ h1, h2 {
     background: #2F1E7F;
   }
   .btn-link {
-    margin-top: 30px;
     height: 50px;
     width: 250px;
     display: flex;
@@ -299,7 +298,6 @@ h1, h2 {
     background: #2F1E7F;
   }
   .btn-link {
-    margin-top: 30px;
     height: 50px;
     width: 350px;
     display: flex;
@@ -356,7 +354,7 @@ h1, h2 {
 /* Pages */
 @media screen and (max-width: 768px) {
   .header-index {
-    margin-top: 20px;
+    margin-top: 0px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -364,24 +362,25 @@ h1, h2 {
     -webkit-backdrop-filter: blur(8.1px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 384px;
-    width: 306px;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 80px;
+    width: 105vw;
   }
   .header-index .logo-index {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 197px;
-    width: 197px;
+    height: 60px;
+    width: 60px;
     border-radius: 90px;
     background-color: white;
   }
   .header-index .logo-index img {
-    height: 127px;
-    width: 117px;
+    animation: spin ease-in-out 8s infinite;
+    height: 40px;
+    width: 40px;
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(-2px -2px 2px rgb(255, 255, 255));
   }
   .welcome {
@@ -392,7 +391,8 @@ h1, h2 {
     backdrop-filter: blur(8.1px);
     -webkit-backdrop-filter: blur(8.1px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    width: 306px;
+    min-width: 306px;
+    max-width: 90vw;
   }
   .welcome-text {
     display: flex;
@@ -445,7 +445,7 @@ h1, h2 {
 }
 @media screen and (min-width: 768px) {
   .header-index {
-    margin-top: 20px;
+    margin-top: 0px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -453,25 +453,25 @@ h1, h2 {
     -webkit-backdrop-filter: blur(8.1px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 384px;
-    width: 608px;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100px;
+    width: 105vw;
   }
   .header-index .logo-index {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 197px;
-    width: 197px;
+    height: 80px;
+    width: 80px;
     border-radius: 90px;
     background-color: white;
   }
   .header-index .logo-index img {
     animation: spin ease-in-out 8s infinite;
-    height: 127px;
-    width: 117px;
+    height: 60px;
+    width: 60px;
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(-2px -2px 2px rgb(255, 255, 255));
   }
   .welcome {
@@ -541,6 +541,7 @@ h1, h2 {
     align-items: center;
     width: 269px;
     height: 70px;
+    margin-bottom: 15px;
     border-radius: 0px 0px 30px 30px;
     background-color: #5E26FF;
   }
@@ -731,6 +732,7 @@ h1, h2 {
     align-items: center;
     width: 269px;
     height: 70px;
+    margin-bottom: 15px;
     border-radius: 0px 0px 30px 30px;
     background-color: #5E26FF;
   }

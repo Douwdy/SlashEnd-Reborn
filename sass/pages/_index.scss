@@ -1,21 +1,24 @@
 // Mobile Version
 @media screen and (max-width: 768px) {
     .header-index{
-        margin-top: 20px;
+        margin-top: 0px;
         @include glass-effect;
-        @include flex-center;
-        flex-direction: column;
-        height: 384px;
-        width: 306px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        height: 80px;
+        width: 105vw;
         .logo-index{
             @include flex-center;
-            height: 197px;
-            width: 197px;
+            height: 60px;
+            width: 60px;
             border-radius: 90px;
             background-color: white;
             img{
-                height: 127px;
-                width: 117px;
+                animation: spin ease-in-out 8s infinite;
+                height: 40px;
+                width: 40px;
                 filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(-2px -2px 2px rgba(255, 255, 255, 1));
             }
         }
@@ -23,7 +26,8 @@
     .welcome{
         margin-top: 20px;
         @include glass-effect;
-        width: 306px;
+        min-width: 306px;
+        max-width: 90vw;
         &-text{
             @include flex-center;
             flex-direction: column;
@@ -72,22 +76,24 @@
 // Desktop Version
 @media screen and (min-width: 768px) {
     .header-index{
-        margin-top: 20px;
+        margin-top: 0px;
         @include glass-effect;
-        @include flex-center;
-        flex-direction: column;
-        height: 384px;
-        width: 608px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        height: 100px;
+        width: 105vw;
         .logo-index{
             @include flex-center;
-            height: 197px;
-            width: 197px;
+            height: 80px;
+            width: 80px;
             border-radius: 90px;
             background-color: white;
             img{
                 animation: spin ease-in-out 8s infinite;
-                height: 127px;
-                width: 117px;
+                height: 60px;
+                width: 60px;
                 filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(-2px -2px 2px rgba(255, 255, 255, 1));
             }
         }
