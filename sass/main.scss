@@ -4,13 +4,6 @@
 @import "./utils/keyframes";
 @import "./utils/functions";
 
-/* Pages */
-@import "./pages/index";
-@import "./pages/cv";
-@import "./pages/keyboard";
-@import "./pages/404";
-@import "./pages/music";
-
 /* Layout */
 @import "./layout/footer";
 @import "./layout/header";
@@ -18,3 +11,14 @@
 /* Base */
 @import "./base/base";
 @import "./base/typography";
+
+/* Components */
+@import "./components/buttons";
+@import "./components/cards";
+
+/* Pages */
+@import "./pages/index";
+@import "./pages/cv";
+@import "./pages/keyboard";
+@import "./pages/404";
+@import "./pages/music";

@@ -6,8 +6,9 @@
      src: url(/public/fonts/GT-Super-Display-Super.woff2);
  }
 
-p, a, h3, h4, h5{
+p, a, h3, h4, h5, div{
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 h1, h2{
     font-family: 'GT-Super', sans-serif;

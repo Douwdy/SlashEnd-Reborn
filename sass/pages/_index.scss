@@ -19,43 +19,6 @@
                 filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(-2px -2px 2px rgba(255, 255, 255, 1));
             }
         }
-        .btn{
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            font-family: 'Dosis', sans-serif;
-            position: absolute;
-            text-decoration: none;
-            color: #fff;
-            font-size: 1.8em;
-            border-radius: 10px;
-            height: 50px;
-            width: 50px;
-            background: $color-btn;
-            animation: pressed-reverse 0.5s both ease;
-            transition: 0.5s ease;
-            &:hover{
-                animation: pressed 0.5s both ease;
-                transition: 0.5s ease;
-                box-shadow: inset 0px -5px 5px 0px rgba($color: black, $alpha: 0.2);
-            }
-            &-shadow{
-                height: 50px;
-                width: 50px;
-                border-radius: 10px;
-                padding-top: 5px;
-                background: $color-btn-shadow;
-            }
-            &-link{
-                margin-top: 30px;
-                height: 50px;
-                width: 200px;
-                display: flex;
-                align-items: center;
-                justify-content: space-around;
-                flex-direction: row;
-            }
-        }
     }
     .welcome{
         margin-top: 20px;
@@ -89,6 +52,9 @@
         margin-top: 50px;
         height: 57px;
         width: 227px;
+
+        color: white;
+        text-decoration: none;
 
         border-radius: 57px;
         font-size: 1.3em;
@@ -125,43 +91,6 @@
                 filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2)) drop-shadow(-2px -2px 2px rgba(255, 255, 255, 1));
             }
         }
-        .btn{
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            font-family: 'Dosis', sans-serif;
-            position: absolute;
-            text-decoration: none;
-            color: #fff;
-            font-size: 1.8em;
-            border-radius: 10px;
-            height: 50px;
-            width: 100px;
-            background: $color-btn;
-            animation: pressed-reverse 0.5s both ease;
-            transition: 0.5s ease;
-            &:hover{
-                animation: pressed 0.5s both ease;
-                transition: 0.5s ease;
-                box-shadow: inset 0px -5px 5px 0px rgba($color: black, $alpha: 0.2);
-            }
-            &-shadow{
-                height: 50px;
-                width: 100px;
-                border-radius: 10px;
-                padding-top: 5px;
-                background: $color-btn-shadow;
-            }
-            &-link{
-                margin-top: 30px;
-                height: 50px;
-                width: 350px;
-                display: flex;
-                align-items: center;
-                justify-content: space-around;
-                flex-direction: row;
-            }
-        }
     }
     .welcome{
         margin-top: 20px;
@@ -189,23 +118,6 @@
     .main-index{
         @include flex-center;
         flex-direction: column;
-    }
-    .visit{
-        @include flex-center;
-        margin-top: 50px;
-        height: 57px;
-        width: 227px;
-
-        border-radius: 57px;
-        font-size: 1.3em;
-        background-color: $color-primary;
-        a{
-            color: white;
-            text-decoration: none;
-        }
-        &:hover{
-            animation: btn-animation 150ms ease-in-out both;
-        }
     }
     .footer-fade{
         height: 320px;

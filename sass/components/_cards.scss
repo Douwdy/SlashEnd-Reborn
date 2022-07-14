@@ -1,0 +1,35 @@
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2{
+        @include flex-center;
+        background-color: white;
+        border-radius: 50px;
+        margin-left: 30px;
+        height: 37px;
+        width: 219px;
+    }
+}
+
+.number{
+    @include flex-center;
+    color: white;
+    border-radius: 37px;
+    font-size: 1.5em;
+    background-color: rgba($color: #ffffff, $alpha: 0.3);
+    margin: 0px;
+    height: 37px;
+    width: 37px;
+}
+
+.card{
+    @include glass-effect;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 306px;
+    height: 458px;
+    margin-top: 50px;
+}
