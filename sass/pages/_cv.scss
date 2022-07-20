@@ -1,3 +1,26 @@
+// Static CSS
+.download{
+    @include flex-center;
+    margin-top: 50px;
+    height: 45px;
+    width: 250px;
+    color: white;
+
+    border-radius: 57px;
+    font-size: 1.3em;
+    background-color: $color-primary;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    &:hover{
+        animation: btn-animation 150ms ease-in-out both;
+    }
+    &-align{
+        @include flex-center;
+    }
+}
+
 // Mobile Version
 @media screen and (max-width: 768px) {
     .topcard{
@@ -28,17 +51,16 @@
             }
         }
     }
-
-    .body-cv{
-        margin: 0;
+    .cv{
+        background-position: center;
+        padding: 0px;
+        margin: 0px;
+        &-main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
-
-    .main-cv{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .presentation{
         @include glass-effect;
         @include flex-center;
@@ -221,32 +243,25 @@
             }
         }
     }
-
-    .body-cv{
+    .cv{
+        background-position: center;
+        padding: 0;
         margin: 0;
-    }
-
-    .main-cv{
-        margin-top: 40px;
+        
         display: flex;
+        justify-content: center;
         align-items: center;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
-        max-width: 1050px;
+        flex-direction: column;
+        &-main{
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 1050px;
+        }
     }
-
-    .number{
-        @include flex-center;
-        color: white;
-        border-radius: 37px;
-        font-size: 1.5em;
-        background-color: rgba($color: #ffffff, $alpha: 0.3);
-        margin: 0px;
-        height: 37px;
-        width: 37px;
-    }
-
     .presentation{
         &-text{
             font-size: 1.2em;
@@ -391,26 +406,3 @@
             }
         }
     }
-
-.download{
-    @include flex-center;
-    margin-top: 50px;
-    height: 45px;
-    width: 250px;
-    color: white;
-
-    border-radius: 57px;
-    font-size: 1.3em;
-    background-color: $color-primary;
-    a{
-        color: white;
-        text-decoration: none;
-    }
-    &:hover{
-        animation: btn-animation 150ms ease-in-out both;
-    }
-}
-
-.download-align{
-    @include flex-center;
-}

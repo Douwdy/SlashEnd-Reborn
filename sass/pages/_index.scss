@@ -7,7 +7,7 @@
         flex-direction: column;
         height: 384px;
         width: 306px;
-        .logo-index{
+        &__logo{
             @include flex-center;
             height: 197px;
             width: 197px;
@@ -20,32 +20,32 @@
             }
         }
     }
-    .welcome{
-        margin-top: 20px;
-        @include glass-effect;
-        width: 306px;
-        &-text{
-            @include flex-center;
-            flex-direction: column;
-            padding: 10px;
-            h1{
-                @include flex-center;
-                border-radius: 35px;
-                height: 35px;
-                width: 275px;
-                font-size: 1.25em;
-                color: black;
-                background-color: white;
-            }
-            p{
-                color: white;
-                font-size: 1.3em;
-            }
-        }
-    }
     .main-index{
         @include flex-center;
         flex-direction: column;
+        &-welcome{
+            margin-top: 20px;
+            @include glass-effect;
+            width: 306px;
+            &__text{
+                @include flex-center;
+                flex-direction: column;
+                padding: 10px;
+                h1{
+                    @include flex-center;
+                    border-radius: 35px;
+                    height: 35px;
+                    width: 275px;
+                    font-size: 1.25em;
+                    color: black;
+                    background-color: white;
+                }
+                p{
+                    color: white;
+                    font-size: 1.3em;
+                }
+            }
+        }
     }
     .visit{
         @include flex-center;
@@ -78,7 +78,7 @@
         flex-direction: column;
         height: 384px;
         width: 608px;
-        .logo-index{
+        &__logo{
             @include flex-center;
             height: 197px;
             width: 197px;
@@ -92,32 +92,32 @@
             }
         }
     }
-    .welcome{
-        margin-top: 20px;
-        @include glass-effect;
-        width: 460px;
-        &-text{
-            @include flex-center;
-            flex-direction: column;
-            padding: 15px;
-            h1{
-                @include flex-center;
-                border-radius: 40px;
-                height: 40px;
-                width: 320px;
-                font-size: 1.5em;
-                color: black;
-                background-color: white;
-            }
-            p{
-                color: white;
-                font-size: 1.4em;
-            }
-        }
-    }
     .main-index{
         @include flex-center;
         flex-direction: column;
+        &-welcome{
+            margin-top: 20px;
+            @include glass-effect;
+            width: 460px;
+            &__text{
+                @include flex-center;
+                flex-direction: column;
+                padding: 15px;
+                h1{
+                    @include flex-center;
+                    border-radius: 40px;
+                    height: 40px;
+                    width: 320px;
+                    font-size: 1.5em;
+                    color: black;
+                    background-color: white;
+                }
+                p{
+                    color: white;
+                    font-size: 1.4em;
+                }
+            }
+        }
     }
     .footer-fade{
         height: 320px;
